@@ -1,0 +1,1066 @@
+2025-04-03 23:00:24,484 - iniciar_bot_ml - INFO - Iniciando script do Bot de Trading com ML
+2025-04-03 23:00:24,485 - iniciar_bot_ml - INFO - Criando diretório: modelos
+2025-04-03 23:00:24,486 - iniciar_bot_ml - INFO - Criando diretório: modelos/classificador_regime
+2025-04-03 23:00:24,487 - iniciar_bot_ml - INFO - Criando diretório: modelos/filtro_sinais
+2025-04-03 23:00:24,488 - iniciar_bot_ml - INFO - Criando diretório: modelos/otimizador
+2025-04-03 23:00:24,488 - iniciar_bot_ml - INFO - Criando diretório: resultados
+2025-04-03 23:00:24,489 - iniciar_bot_ml - INFO - Criando diretório: resultados/backtests
+2025-04-03 23:00:24,490 - iniciar_bot_ml - INFO - Criando diretório: resultados/otimizacao
+2025-04-03 23:00:24,872 - iniciar_bot_ml - INFO - Verificação do ambiente concluída.
+2025-04-03 23:00:24,876 - iniciar_bot_ml - ERROR - Configurações obrigatórias não encontradas: PAIR, TIMEFRAME
+2025-04-03 23:00:24,876 - iniciar_bot_ml - ERROR - Por favor, edite o arquivo .env e adicione as configurações faltantes.
+2025-04-03 23:00:24,876 - iniciar_bot_ml - ERROR - Falha na verificação da configuração. O script será encerrado.
+2025-04-03 23:02:15,070 - iniciar_bot_ml - INFO - Iniciando script do Bot de Trading com ML
+2025-04-03 23:02:15,217 - iniciar_bot_ml - INFO - Verificação do ambiente concluída.
+2025-04-03 23:02:15,220 - iniciar_bot_ml - ERROR - Configurações obrigatórias não encontradas: PAIR, TIMEFRAME
+2025-04-03 23:02:15,221 - iniciar_bot_ml - ERROR - Por favor, edite o arquivo .env e adicione as configurações faltantes.
+2025-04-03 23:02:15,221 - iniciar_bot_ml - ERROR - Falha na verificação da configuração. O script será encerrado.
+2025-04-03 23:03:46,671 - iniciar_bot_ml - INFO - Iniciando script do Bot de Trading com ML
+2025-04-03 23:03:46,781 - iniciar_bot_ml - INFO - Verificação do ambiente concluída.
+2025-04-03 23:03:46,785 - iniciar_bot_ml - WARNING - As chaves da API não foram configuradas. O bot funcionará apenas em modo de teste.
+2025-04-03 23:03:46,786 - iniciar_bot_ml - WARNING - Alguns modelos de ML não foram encontrados:
+2025-04-03 23:03:46,786 - iniciar_bot_ml - WARNING -   - Classificador de regime: modelos/classificador_regime/classificador_regime.joblib
+2025-04-03 23:03:46,786 - iniciar_bot_ml - WARNING -   - Filtro de sinais: modelos/filtro_sinais/filtro_sinais.joblib
+2025-04-03 23:03:46,786 - iniciar_bot_ml - WARNING -   - Parâmetros otimizados: modelos/otimizador/params_otimizados.json
+2025-04-03 23:03:46,787 - iniciar_bot_ml - WARNING - Você precisa treinar os modelos antes de executar o bot em modo completo.
+2025-04-03 23:03:46,787 - iniciar_bot_ml - INFO - Configuração verificada e carregada.
+2025-04-03 23:05:05,627 - iniciar_bot_ml - INFO - Iniciando script do Bot de Trading com ML
+2025-04-03 23:05:05,741 - iniciar_bot_ml - INFO - Verificação do ambiente concluída.
+2025-04-03 23:05:05,745 - iniciar_bot_ml - WARNING - Alguns modelos de ML não foram encontrados:
+2025-04-03 23:05:05,745 - iniciar_bot_ml - WARNING -   - Classificador de regime: modelos/classificador_regime/classificador_regime.joblib
+2025-04-03 23:05:05,745 - iniciar_bot_ml - WARNING -   - Filtro de sinais: modelos/filtro_sinais/filtro_sinais.joblib
+2025-04-03 23:05:05,745 - iniciar_bot_ml - WARNING -   - Parâmetros otimizados: modelos/otimizador/params_otimizados.json
+2025-04-03 23:05:05,746 - iniciar_bot_ml - WARNING - Você precisa treinar os modelos antes de executar o bot em modo completo.
+2025-04-03 23:05:05,746 - iniciar_bot_ml - INFO - Configuração verificada e carregada.
+2025-04-03 23:05:46,604 - iniciar_bot_ml - INFO - Iniciando script do Bot de Trading com ML
+2025-04-03 23:05:46,721 - iniciar_bot_ml - INFO - Verificação do ambiente concluída.
+2025-04-03 23:05:46,725 - iniciar_bot_ml - WARNING - Alguns modelos de ML não foram encontrados:
+2025-04-03 23:05:46,726 - iniciar_bot_ml - WARNING -   - Classificador de regime: modelos/classificador_regime/classificador_regime.joblib
+2025-04-03 23:05:46,726 - iniciar_bot_ml - WARNING -   - Filtro de sinais: modelos/filtro_sinais/filtro_sinais.joblib
+2025-04-03 23:05:46,726 - iniciar_bot_ml - WARNING -   - Parâmetros otimizados: modelos/otimizador/params_otimizados.json
+2025-04-03 23:05:46,726 - iniciar_bot_ml - WARNING - Você precisa treinar os modelos antes de executar o bot em modo completo.
+2025-04-03 23:05:46,727 - iniciar_bot_ml - INFO - Configuração verificada e carregada.
+2025-04-03 23:06:16,314 - iniciar_bot_ml - INFO - Iniciando script do Bot de Trading com ML
+2025-04-03 23:06:16,430 - iniciar_bot_ml - INFO - Verificação do ambiente concluída.
+2025-04-03 23:06:16,434 - iniciar_bot_ml - WARNING - Alguns modelos de ML não foram encontrados:
+2025-04-03 23:06:16,434 - iniciar_bot_ml - WARNING -   - Classificador de regime: modelos/classificador_regime/classificador_regime.joblib
+2025-04-03 23:06:16,435 - iniciar_bot_ml - WARNING -   - Filtro de sinais: modelos/filtro_sinais/filtro_sinais.joblib
+2025-04-03 23:06:16,435 - iniciar_bot_ml - WARNING -   - Parâmetros otimizados: modelos/otimizador/params_otimizados.json
+2025-04-03 23:06:16,435 - iniciar_bot_ml - WARNING - Você precisa treinar os modelos antes de executar o bot em modo completo.
+2025-04-03 23:06:16,435 - iniciar_bot_ml - INFO - Configuração verificada e carregada.
+2025-04-03 23:06:18,564 - iniciar_bot_ml - ERROR - Erro ao executar o bot: TradingBotML.__init__() got an unexpected keyword argument 'modo_real'
+Traceback (most recent call last):
+  File "C:\Users\Arthur Age\Desktop\first_bot\iniciar_bot_ml.py", line 256, in executar_bot
+    bot = TradingBotML(modo_real=modo_real)
+TypeError: TradingBotML.__init__() got an unexpected keyword argument 'modo_real'
+2025-04-03 23:07:58,338 - iniciar_bot_ml - INFO - Iniciando script do Bot de Trading com ML
+2025-04-03 23:07:58,456 - iniciar_bot_ml - INFO - Verificação do ambiente concluída.
+2025-04-03 23:07:58,460 - iniciar_bot_ml - WARNING - Alguns modelos de ML não foram encontrados:
+2025-04-03 23:07:58,461 - iniciar_bot_ml - WARNING -   - Classificador de regime: modelos/classificador_regime/classificador_regime.joblib
+2025-04-03 23:07:58,461 - iniciar_bot_ml - WARNING -   - Filtro de sinais: modelos/filtro_sinais/filtro_sinais.joblib
+2025-04-03 23:07:58,461 - iniciar_bot_ml - WARNING -   - Parâmetros otimizados: modelos/otimizador/params_otimizados.json
+2025-04-03 23:07:58,461 - iniciar_bot_ml - WARNING - Você precisa treinar os modelos antes de executar o bot em modo completo.
+2025-04-03 23:07:58,461 - iniciar_bot_ml - INFO - Configuração verificada e carregada.
+2025-04-03 23:08:01,548 - iniciar_bot_ml - INFO - Iniciando bot em modo SIMULADO...
+2025-04-03 23:20:40,251 - iniciar_bot_ml - INFO - Iniciando script do Bot de Trading com ML
+2025-04-03 23:20:40,350 - iniciar_bot_ml - INFO - Verificação do ambiente concluída.
+2025-04-03 23:20:40,355 - iniciar_bot_ml - WARNING - Alguns modelos de ML não foram encontrados:
+2025-04-03 23:20:40,355 - iniciar_bot_ml - WARNING -   - Classificador de regime: modelos/classificador_regime/classificador_regime.joblib
+2025-04-03 23:20:40,356 - iniciar_bot_ml - WARNING -   - Filtro de sinais: modelos/filtro_sinais/filtro_sinais.joblib
+2025-04-03 23:20:40,356 - iniciar_bot_ml - WARNING -   - Parâmetros otimizados: modelos/otimizador/params_otimizados.json
+2025-04-03 23:20:40,356 - iniciar_bot_ml - WARNING - Você precisa treinar os modelos antes de executar o bot em modo completo.
+2025-04-03 23:20:40,356 - iniciar_bot_ml - INFO - Configuração verificada e carregada.
+2025-04-03 23:20:45,538 - iniciar_bot_ml - INFO - Iniciando bot em modo SIMULADO...
+2025-04-03 23:24:36,697 - iniciar_bot_ml - INFO - Iniciando script do Bot de Trading com ML
+2025-04-03 23:24:36,805 - iniciar_bot_ml - INFO - Verificação do ambiente concluída.
+2025-04-03 23:24:36,809 - iniciar_bot_ml - WARNING - Alguns modelos de ML não foram encontrados:
+2025-04-03 23:24:36,809 - iniciar_bot_ml - WARNING -   - Classificador de regime: modelos/classificador_regime/classificador_regime.joblib
+2025-04-03 23:24:36,809 - iniciar_bot_ml - WARNING -   - Filtro de sinais: modelos/filtro_sinais/filtro_sinais.joblib
+2025-04-03 23:24:36,810 - iniciar_bot_ml - WARNING -   - Parâmetros otimizados: modelos/otimizador/params_otimizados.json
+2025-04-03 23:24:36,810 - iniciar_bot_ml - WARNING - Você precisa treinar os modelos antes de executar o bot em modo completo.
+2025-04-03 23:24:36,810 - iniciar_bot_ml - INFO - Configuração verificada e carregada.
+2025-04-03 23:24:46,540 - iniciar_bot_ml - INFO - Iniciando bot em modo REAL...
+2025-04-03 23:25:45,497 - iniciar_bot_ml - INFO - Relatório de recursos exportado para: logs/relatorio_recursos_20250403_232545.json
+2025-04-03 23:26:40,174 - iniciar_bot_ml - INFO - Encerrando script do Bot de Trading com ML
+2025-04-03 23:42:47,121 - iniciar_bot_ml - INFO - Iniciando script do Bot de Trading com ML
+2025-04-03 23:42:47,226 - iniciar_bot_ml - INFO - Verificação do ambiente concluída.
+2025-04-03 23:42:47,230 - iniciar_bot_ml - WARNING - Alguns modelos de ML não foram encontrados:
+2025-04-03 23:42:47,230 - iniciar_bot_ml - WARNING -   - Classificador de regime: modelos/classificador_regime/classificador_regime.joblib
+2025-04-03 23:42:47,231 - iniciar_bot_ml - WARNING -   - Filtro de sinais: modelos/filtro_sinais/filtro_sinais.joblib
+2025-04-03 23:42:47,231 - iniciar_bot_ml - WARNING -   - Parâmetros otimizados: modelos/otimizador/params_otimizados.json
+2025-04-03 23:42:47,231 - iniciar_bot_ml - WARNING - Você precisa treinar os modelos antes de executar o bot em modo completo.
+2025-04-03 23:42:47,231 - iniciar_bot_ml - INFO - Configuração verificada e carregada.
+2025-04-03 23:43:55,748 - iniciar_bot_ml - INFO - Executando backtest para BTCUSDT (1h) - 30 dias...
+2025-04-03 23:43:55,749 - iniciar_bot_ml - ERROR - Erro ao executar backtest: MineradorEstrategiasML.__init__() missing 1 required positional argument: 'backtest_fn'
+Traceback (most recent call last):
+  File "c:\Users\Arthur Age\Desktop\first_bot\iniciar_bot_ml.py", line 296, in executar_backtest
+    strategy_miner = MineradorEstrategiasML(dias_historico=dias)
+TypeError: MineradorEstrategiasML.__init__() missing 1 required positional argument: 'backtest_fn'
+2025-04-03 23:46:57,187 - iniciar_bot_ml - INFO - Executando backtest para BTCUSDT (1h) - 30 dias...
+2025-04-03 23:46:57,187 - iniciar_bot_ml - ERROR - Erro ao executar backtest: MineradorEstrategiasML.__init__() missing 1 required positional argument: 'backtest_fn'
+Traceback (most recent call last):
+  File "c:\Users\Arthur Age\Desktop\first_bot\iniciar_bot_ml.py", line 296, in executar_backtest
+    strategy_miner = MineradorEstrategiasML(dias_historico=dias)
+TypeError: MineradorEstrategiasML.__init__() missing 1 required positional argument: 'backtest_fn'
+2025-04-03 23:47:54,829 - iniciar_bot_ml - INFO - Iniciando script do Bot de Trading com ML
+2025-04-03 23:47:54,933 - iniciar_bot_ml - INFO - Verificação do ambiente concluída.
+2025-04-03 23:47:54,937 - iniciar_bot_ml - WARNING - Alguns modelos de ML não foram encontrados:
+2025-04-03 23:47:54,937 - iniciar_bot_ml - WARNING -   - Classificador de regime: modelos/classificador_regime/classificador_regime.joblib
+2025-04-03 23:47:54,937 - iniciar_bot_ml - WARNING -   - Filtro de sinais: modelos/filtro_sinais/filtro_sinais.joblib
+2025-04-03 23:47:54,938 - iniciar_bot_ml - WARNING -   - Parâmetros otimizados: modelos/otimizador/params_otimizados.json
+2025-04-03 23:47:54,938 - iniciar_bot_ml - WARNING - Você precisa treinar os modelos antes de executar o bot em modo completo.
+2025-04-03 23:47:54,938 - iniciar_bot_ml - INFO - Configuração verificada e carregada.
+2025-04-03 23:48:00,312 - iniciar_bot_ml - INFO - Executando backtest para BTCUSDT (1h) - 30 dias...
+2025-04-03 23:48:00,313 - iniciar_bot_ml - ERROR - Erro ao executar backtest: No module named 'src.backtest'
+Traceback (most recent call last):
+  File "C:\Users\Arthur Age\Desktop\first_bot\iniciar_bot_ml.py", line 326, in executar_backtest
+    resultado = executar_fn_backtest()
+  File "C:\Users\Arthur Age\Desktop\first_bot\iniciar_bot_ml.py", line 298, in executar_fn_backtest
+    from src.backtest import Backtest
+ModuleNotFoundError: No module named 'src.backtest'
+2025-04-03 23:48:03,474 - iniciar_bot_ml - INFO - Executando backtest para BTCUSDT (1h) - 30 dias...
+2025-04-03 23:48:03,475 - iniciar_bot_ml - ERROR - Erro ao executar backtest: No module named 'src.backtest'
+Traceback (most recent call last):
+  File "C:\Users\Arthur Age\Desktop\first_bot\iniciar_bot_ml.py", line 326, in executar_backtest
+    resultado = executar_fn_backtest()
+  File "C:\Users\Arthur Age\Desktop\first_bot\iniciar_bot_ml.py", line 298, in executar_fn_backtest
+    from src.backtest import Backtest
+ModuleNotFoundError: No module named 'src.backtest'
+2025-04-03 23:50:01,825 - iniciar_bot_ml - INFO - Iniciando script do Bot de Trading com ML
+2025-04-03 23:50:01,938 - iniciar_bot_ml - INFO - Verificação do ambiente concluída.
+2025-04-03 23:50:01,942 - iniciar_bot_ml - WARNING - Alguns modelos de ML não foram encontrados:
+2025-04-03 23:50:01,942 - iniciar_bot_ml - WARNING -   - Classificador de regime: modelos/classificador_regime/classificador_regime.joblib
+2025-04-03 23:50:01,942 - iniciar_bot_ml - WARNING -   - Filtro de sinais: modelos/filtro_sinais/filtro_sinais.joblib
+2025-04-03 23:50:01,942 - iniciar_bot_ml - WARNING -   - Parâmetros otimizados: modelos/otimizador/params_otimizados.json
+2025-04-03 23:50:01,942 - iniciar_bot_ml - WARNING - Você precisa treinar os modelos antes de executar o bot em modo completo.
+2025-04-03 23:50:01,943 - iniciar_bot_ml - INFO - Configuração verificada e carregada.
+2025-04-03 23:50:04,450 - iniciar_bot_ml - INFO - Executando backtest para BTCUSDT (1h) - 30 dias...
+2025-04-03 23:50:04,451 - iniciar_bot_ml - ERROR - Erro ao executar backtest: No module named 'src.backtest'
+Traceback (most recent call last):
+  File "C:\Users\Arthur Age\Desktop\first_bot\iniciar_bot_ml.py", line 326, in executar_backtest
+    resultado = executar_fn_backtest()
+  File "C:\Users\Arthur Age\Desktop\first_bot\iniciar_bot_ml.py", line 298, in executar_fn_backtest
+    from src.backtest import Backtest
+ModuleNotFoundError: No module named 'src.backtest'
+2025-04-03 23:50:37,948 - iniciar_bot_ml - INFO - Iniciando script do Bot de Trading com ML
+2025-04-03 23:50:38,061 - iniciar_bot_ml - INFO - Verificação do ambiente concluída.
+2025-04-03 23:50:38,065 - iniciar_bot_ml - WARNING - Alguns modelos de ML não foram encontrados:
+2025-04-03 23:50:38,066 - iniciar_bot_ml - WARNING -   - Classificador de regime: modelos/classificador_regime/classificador_regime.joblib
+2025-04-03 23:50:38,066 - iniciar_bot_ml - WARNING -   - Filtro de sinais: modelos/filtro_sinais/filtro_sinais.joblib
+2025-04-03 23:50:38,066 - iniciar_bot_ml - WARNING -   - Parâmetros otimizados: modelos/otimizador/params_otimizados.json
+2025-04-03 23:50:38,066 - iniciar_bot_ml - WARNING - Você precisa treinar os modelos antes de executar o bot em modo completo.
+2025-04-03 23:50:38,066 - iniciar_bot_ml - INFO - Configuração verificada e carregada.
+2025-04-03 23:50:42,814 - iniciar_bot_ml - INFO - Executando backtest para BTCUSDT (1h) - 30 dias...
+2025-04-03 23:50:59,341 - iniciar_bot_ml - INFO - Backtest concluído. Resultados salvos em: resultados/backtests/backtest_BTCUSDT_1h_20250403_235059.json
+2025-04-03 23:51:03,196 - iniciar_bot_ml - INFO - Executando backtest para BTCUSDT (1h) - 30 dias...
+2025-04-03 23:51:27,098 - iniciar_bot_ml - INFO - Iniciando script do Bot de Trading com ML
+2025-04-03 23:51:27,211 - iniciar_bot_ml - INFO - Verificação do ambiente concluída.
+2025-04-03 23:51:27,215 - iniciar_bot_ml - WARNING - Alguns modelos de ML não foram encontrados:
+2025-04-03 23:51:27,215 - iniciar_bot_ml - WARNING -   - Classificador de regime: modelos/classificador_regime/classificador_regime.joblib
+2025-04-03 23:51:27,215 - iniciar_bot_ml - WARNING -   - Filtro de sinais: modelos/filtro_sinais/filtro_sinais.joblib
+2025-04-03 23:51:27,216 - iniciar_bot_ml - WARNING -   - Parâmetros otimizados: modelos/otimizador/params_otimizados.json
+2025-04-03 23:51:27,216 - iniciar_bot_ml - WARNING - Você precisa treinar os modelos antes de executar o bot em modo completo.
+2025-04-03 23:51:27,216 - iniciar_bot_ml - INFO - Configuração verificada e carregada.
+2025-04-03 23:51:30,029 - iniciar_bot_ml - INFO - Executando backtest para BTCUSDT (1h) - 30 dias...
+2025-04-03 23:51:30,940 - iniciar_bot_ml - INFO - Backtest concluído. Resultados salvos em: resultados/backtests/backtest_BTCUSDT_1h_20250403_235130.json
+2025-04-03 23:51:33,928 - iniciar_bot_ml - INFO - Executando backtest para BTCUSDT (1h) - 30 dias...
+2025-04-03 23:51:34,732 - iniciar_bot_ml - INFO - Backtest concluído. Resultados salvos em: resultados/backtests/backtest_BTCUSDT_1h_20250403_235134.json
+2025-04-03 23:53:07,330 - iniciar_bot_ml - INFO - Executando backtest para BTCUSDT (1h) - 30 dias...
+2025-04-03 23:53:07,330 - iniciar_bot_ml - ERROR - Erro ao executar backtest: MineradorEstrategiasML.__init__() missing 1 required positional argument: 'backtest_fn'
+Traceback (most recent call last):
+  File "c:\Users\Arthur Age\Desktop\first_bot\iniciar_bot_ml.py", line 296, in executar_backtest
+    def executar_fn_backtest(**params):
+                     ^^^^^^^^^^^^^^^^^^
+TypeError: MineradorEstrategiasML.__init__() missing 1 required positional argument: 'backtest_fn'
+2025-04-03 23:53:15,266 - iniciar_bot_ml - INFO - Encerrando script do Bot de Trading com ML
+2025-04-03 23:53:33,584 - iniciar_bot_ml - INFO - Iniciando script do Bot de Trading com ML
+2025-04-03 23:53:33,683 - iniciar_bot_ml - INFO - Verificação do ambiente concluída.
+2025-04-03 23:53:33,688 - iniciar_bot_ml - WARNING - Alguns modelos de ML não foram encontrados:
+2025-04-03 23:53:33,688 - iniciar_bot_ml - WARNING -   - Classificador de regime: modelos/classificador_regime/classificador_regime.joblib
+2025-04-03 23:53:33,688 - iniciar_bot_ml - WARNING -   - Filtro de sinais: modelos/filtro_sinais/filtro_sinais.joblib
+2025-04-03 23:53:33,688 - iniciar_bot_ml - WARNING -   - Parâmetros otimizados: modelos/otimizador/params_otimizados.json
+2025-04-03 23:53:33,689 - iniciar_bot_ml - WARNING - Você precisa treinar os modelos antes de executar o bot em modo completo.
+2025-04-03 23:53:33,689 - iniciar_bot_ml - INFO - Configuração verificada e carregada.
+2025-04-03 23:53:40,230 - iniciar_bot_ml - INFO - Executando backtest para BTCUSDT (5m) - 30 dias...
+2025-04-03 23:53:41,398 - iniciar_bot_ml - INFO - Backtest concluído. Resultados salvos em: resultados/backtests/backtest_BTCUSDT_5m_20250403_235341.json
+2025-04-04 06:51:57,328 - iniciar_bot_ml - INFO - Iniciando script do Bot de Trading com ML
+2025-04-04 06:51:57,497 - iniciar_bot_ml - INFO - Verificação do ambiente concluída.
+2025-04-04 06:51:57,500 - iniciar_bot_ml - WARNING - Alguns modelos de ML não foram encontrados:
+2025-04-04 06:51:57,501 - iniciar_bot_ml - WARNING -   - Classificador de regime: modelos/classificador_regime/classificador_regime.joblib
+2025-04-04 06:51:57,501 - iniciar_bot_ml - WARNING -   - Filtro de sinais: modelos/filtro_sinais/filtro_sinais.joblib
+2025-04-04 06:51:57,501 - iniciar_bot_ml - WARNING -   - Parâmetros otimizados: modelos/otimizador/params_otimizados.json
+2025-04-04 06:51:57,502 - iniciar_bot_ml - WARNING - Você precisa treinar os modelos antes de executar o bot em modo completo.
+2025-04-04 06:51:57,502 - iniciar_bot_ml - INFO - Configuração verificada e carregada.
+2025-04-04 06:52:11,289 - iniciar_bot_ml - INFO - Executando backtest para BTCUSDT (5m) - 30 dias...
+2025-04-04 06:52:28,109 - iniciar_bot_ml - INFO - Backtest concluído. Resultados salvos em: resultados/backtests/backtest_BTCUSDT_5m_20250404_065228.json
+2025-04-04 06:52:32,819 - iniciar_bot_ml - INFO - Executando backtest para BTCUSDT (5m) - 30 dias...
+2025-04-04 06:52:53,938 - iniciar_bot_ml - INFO - Iniciando script do Bot de Trading com ML
+2025-04-04 06:52:54,065 - iniciar_bot_ml - INFO - Verificação do ambiente concluída.
+2025-04-04 06:52:54,069 - iniciar_bot_ml - WARNING - Alguns modelos de ML não foram encontrados:
+2025-04-04 06:52:54,069 - iniciar_bot_ml - WARNING -   - Classificador de regime: modelos/classificador_regime/classificador_regime.joblib
+2025-04-04 06:52:54,070 - iniciar_bot_ml - WARNING -   - Filtro de sinais: modelos/filtro_sinais/filtro_sinais.joblib
+2025-04-04 06:52:54,070 - iniciar_bot_ml - WARNING -   - Parâmetros otimizados: modelos/otimizador/params_otimizados.json
+2025-04-04 06:52:54,070 - iniciar_bot_ml - WARNING - Você precisa treinar os modelos antes de executar o bot em modo completo.
+2025-04-04 06:52:54,070 - iniciar_bot_ml - INFO - Configuração verificada e carregada.
+2025-04-04 06:52:56,340 - iniciar_bot_ml - INFO - Executando backtest para BTCUSDT (5m) - 30 dias...
+2025-04-04 06:52:57,140 - iniciar_bot_ml - INFO - Backtest concluído. Resultados salvos em: resultados/backtests/backtest_BTCUSDT_5m_20250404_065257.json
+2025-04-04 06:53:00,010 - iniciar_bot_ml - INFO - Executando backtest para BTCUSDT (5m) - 30 dias...
+2025-04-04 06:53:01,253 - iniciar_bot_ml - INFO - Backtest concluído. Resultados salvos em: resultados/backtests/backtest_BTCUSDT_5m_20250404_065301.json
+2025-04-04 06:53:50,036 - iniciar_bot_ml - INFO - Iniciando script do Bot de Trading com ML
+2025-04-04 06:53:50,144 - iniciar_bot_ml - INFO - Verificação do ambiente concluída.
+2025-04-04 06:53:50,149 - iniciar_bot_ml - WARNING - Alguns modelos de ML não foram encontrados:
+2025-04-04 06:53:50,149 - iniciar_bot_ml - WARNING -   - Classificador de regime: modelos/classificador_regime/classificador_regime.joblib
+2025-04-04 06:53:50,149 - iniciar_bot_ml - WARNING -   - Filtro de sinais: modelos/filtro_sinais/filtro_sinais.joblib
+2025-04-04 06:53:50,149 - iniciar_bot_ml - WARNING -   - Parâmetros otimizados: modelos/otimizador/params_otimizados.json
+2025-04-04 06:53:50,150 - iniciar_bot_ml - WARNING - Você precisa treinar os modelos antes de executar o bot em modo completo.
+2025-04-04 06:53:50,150 - iniciar_bot_ml - INFO - Configuração verificada e carregada.
+2025-04-04 06:53:52,737 - iniciar_bot_ml - INFO - Executando backtest para BTCUSDT (5m) - 30 dias...
+2025-04-04 06:53:53,543 - iniciar_bot_ml - INFO - Backtest concluído. Resultados salvos em: resultados/backtests/backtest_BTCUSDT_5m_20250404_065353.json
+2025-04-04 06:54:29,342 - iniciar_bot_ml - INFO - Iniciando script do Bot de Trading com ML
+2025-04-04 06:54:29,438 - iniciar_bot_ml - INFO - Verificação do ambiente concluída.
+2025-04-04 06:54:29,442 - iniciar_bot_ml - WARNING - Alguns modelos de ML não foram encontrados:
+2025-04-04 06:54:29,442 - iniciar_bot_ml - WARNING -   - Classificador de regime: modelos/classificador_regime/classificador_regime.joblib
+2025-04-04 06:54:29,442 - iniciar_bot_ml - WARNING -   - Filtro de sinais: modelos/filtro_sinais/filtro_sinais.joblib
+2025-04-04 06:54:29,443 - iniciar_bot_ml - WARNING -   - Parâmetros otimizados: modelos/otimizador/params_otimizados.json
+2025-04-04 06:54:29,443 - iniciar_bot_ml - WARNING - Você precisa treinar os modelos antes de executar o bot em modo completo.
+2025-04-04 06:54:29,443 - iniciar_bot_ml - INFO - Configuração verificada e carregada.
+2025-04-04 06:54:34,567 - iniciar_bot_ml - INFO - Executando backtest para BTCUSDT (5m) - 30 dias...
+2025-04-04 06:54:37,748 - iniciar_bot_ml - INFO - Backtest concluído. Resultados salvos em: resultados/backtests/backtest_BTCUSDT_5m_20250404_065437.json
+2025-04-04 06:54:57,427 - iniciar_bot_ml - INFO - Otimizando parâmetros para BTCUSDT (5m) - 60 dias...
+2025-04-04 06:54:57,432 - iniciar_bot_ml - INFO - Iniciando otimização bayesiana...
+2025-04-04 06:54:57,774 - iniciar_bot_ml - ERROR - Erro ao otimizar parâmetros: Backtest.executar() got an unexpected keyword argument 'ADX_THRESHOLD'
+Traceback (most recent call last):
+  File "c:\Users\Arthur Age\Desktop\first_bot\iniciar_bot_ml.py", line 502, in otimizar_parametros
+    melhores_parametros = otimizador.otimizar(verbose=True)
+  File "c:\Users\Arthur Age\Desktop\first_bot\src\ml\otimizacao_bayesiana.py", line 78, in otimizar
+    self.resultado = gp_minimize(
+                     ~~~~~~~~~~~^
+        objetivo_wrapper,
+        ^^^^^^^^^^^^^^^^^
+    ...<4 lines>...
+        random_state=42
+        ^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\Arthur Age\AppData\Local\Programs\Python\Python313\Lib\site-packages\skopt\optimizer\gp.py", line 281, in gp_minimize
+    return base_minimize(
+        func,
+    ...<19 lines>...
+        model_queue_size=model_queue_size,
+    )
+  File "C:\Users\Arthur Age\AppData\Local\Programs\Python\Python313\Lib\site-packages\skopt\optimizer\base.py", line 332, in base_minimize
+    next_y = func(next_x)
+  File "C:\Users\Arthur Age\AppData\Local\Programs\Python\Python313\Lib\site-packages\skopt\utils.py", line 779, in wrapper
+    objective_value = func(**arg_dict)
+  File "c:\Users\Arthur Age\Desktop\first_bot\src\ml\otimizacao_bayesiana.py", line 71, in objetivo_wrapper
+    return self.funcao_objetivo(**params)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "c:\Users\Arthur Age\Desktop\first_bot\iniciar_bot_ml.py", line 479, in executar_fn_backtest
+    resultado = backtest.executar(
+        par=par,
+    ...<2 lines>...
+        **params  # Passar parâmetros a serem otimizados
+    )
+TypeError: Backtest.executar() got an unexpected keyword argument 'ADX_THRESHOLD'
+2025-04-04 06:58:13,613 - iniciar_bot_ml - INFO - Iniciando script do Bot de Trading com ML
+2025-04-04 06:58:13,728 - iniciar_bot_ml - INFO - Verificação do ambiente concluída.
+2025-04-04 06:58:13,732 - iniciar_bot_ml - WARNING - Alguns modelos de ML não foram encontrados:
+2025-04-04 06:58:13,732 - iniciar_bot_ml - WARNING -   - Classificador de regime: modelos/classificador_regime/classificador_regime.joblib
+2025-04-04 06:58:13,732 - iniciar_bot_ml - WARNING -   - Filtro de sinais: modelos/filtro_sinais/filtro_sinais.joblib
+2025-04-04 06:58:13,732 - iniciar_bot_ml - WARNING -   - Parâmetros otimizados: modelos/otimizador/params_otimizados.json
+2025-04-04 06:58:13,733 - iniciar_bot_ml - WARNING - Você precisa treinar os modelos antes de executar o bot em modo completo.
+2025-04-04 06:58:13,733 - iniciar_bot_ml - INFO - Configuração verificada e carregada.
+2025-04-04 06:58:17,713 - iniciar_bot_ml - INFO - Otimizando parâmetros para BTCUSDT (5m) - 60 dias...
+2025-04-04 06:58:17,718 - iniciar_bot_ml - INFO - Iniciando otimização bayesiana...
+2025-04-04 06:58:17,742 - iniciar_bot_ml - WARNING - Parâmetro 'adx_threshold' não mapeado para o Backtest, ignorando.
+2025-04-04 06:58:17,742 - iniciar_bot_ml - WARNING - Parâmetro 'adx_period' não mapeado para o Backtest, ignorando.
+2025-04-04 06:58:17,742 - iniciar_bot_ml - WARNING - Parâmetro 'di_threshold' não mapeado para o Backtest, ignorando.
+2025-04-04 06:58:17,743 - iniciar_bot_ml - WARNING - Parâmetro 'stop_multiplier_buy' não mapeado para o Backtest, ignorando.
+2025-04-04 06:58:17,743 - iniciar_bot_ml - WARNING - Parâmetro 'stop_multiplier_sell' não mapeado para o Backtest, ignorando.
+2025-04-04 06:58:17,743 - iniciar_bot_ml - WARNING - Parâmetro 'gain_multiplier_buy' não mapeado para o Backtest, ignorando.
+2025-04-04 06:58:17,743 - iniciar_bot_ml - WARNING - Parâmetro 'gain_multiplier_sell' não mapeado para o Backtest, ignorando.
+2025-04-04 06:58:18,534 - iniciar_bot_ml - WARNING - Parâmetro 'adx_threshold' não mapeado para o Backtest, ignorando.
+2025-04-04 06:58:18,534 - iniciar_bot_ml - WARNING - Parâmetro 'adx_period' não mapeado para o Backtest, ignorando.
+2025-04-04 06:58:18,534 - iniciar_bot_ml - WARNING - Parâmetro 'di_threshold' não mapeado para o Backtest, ignorando.
+2025-04-04 06:58:18,535 - iniciar_bot_ml - WARNING - Parâmetro 'stop_multiplier_buy' não mapeado para o Backtest, ignorando.
+2025-04-04 06:58:18,535 - iniciar_bot_ml - WARNING - Parâmetro 'stop_multiplier_sell' não mapeado para o Backtest, ignorando.
+2025-04-04 06:58:18,535 - iniciar_bot_ml - WARNING - Parâmetro 'gain_multiplier_buy' não mapeado para o Backtest, ignorando.
+2025-04-04 06:58:18,535 - iniciar_bot_ml - WARNING - Parâmetro 'gain_multiplier_sell' não mapeado para o Backtest, ignorando.
+2025-04-04 06:58:19,278 - iniciar_bot_ml - WARNING - Parâmetro 'adx_threshold' não mapeado para o Backtest, ignorando.
+2025-04-04 06:58:19,278 - iniciar_bot_ml - WARNING - Parâmetro 'adx_period' não mapeado para o Backtest, ignorando.
+2025-04-04 06:58:19,278 - iniciar_bot_ml - WARNING - Parâmetro 'di_threshold' não mapeado para o Backtest, ignorando.
+2025-04-04 06:58:19,279 - iniciar_bot_ml - WARNING - Parâmetro 'stop_multiplier_buy' não mapeado para o Backtest, ignorando.
+2025-04-04 06:58:19,279 - iniciar_bot_ml - WARNING - Parâmetro 'stop_multiplier_sell' não mapeado para o Backtest, ignorando.
+2025-04-04 06:58:19,279 - iniciar_bot_ml - WARNING - Parâmetro 'gain_multiplier_buy' não mapeado para o Backtest, ignorando.
+2025-04-04 06:58:19,279 - iniciar_bot_ml - WARNING - Parâmetro 'gain_multiplier_sell' não mapeado para o Backtest, ignorando.
+2025-04-04 06:58:22,376 - iniciar_bot_ml - WARNING - Parâmetro 'adx_threshold' não mapeado para o Backtest, ignorando.
+2025-04-04 06:58:22,376 - iniciar_bot_ml - WARNING - Parâmetro 'adx_period' não mapeado para o Backtest, ignorando.
+2025-04-04 06:58:22,377 - iniciar_bot_ml - WARNING - Parâmetro 'di_threshold' não mapeado para o Backtest, ignorando.
+2025-04-04 06:58:22,377 - iniciar_bot_ml - WARNING - Parâmetro 'stop_multiplier_buy' não mapeado para o Backtest, ignorando.
+2025-04-04 06:58:22,377 - iniciar_bot_ml - WARNING - Parâmetro 'stop_multiplier_sell' não mapeado para o Backtest, ignorando.
+2025-04-04 06:58:22,378 - iniciar_bot_ml - WARNING - Parâmetro 'gain_multiplier_buy' não mapeado para o Backtest, ignorando.
+2025-04-04 06:58:22,378 - iniciar_bot_ml - WARNING - Parâmetro 'gain_multiplier_sell' não mapeado para o Backtest, ignorando.
+2025-04-04 06:58:23,622 - iniciar_bot_ml - WARNING - Parâmetro 'adx_threshold' não mapeado para o Backtest, ignorando.
+2025-04-04 06:58:23,623 - iniciar_bot_ml - WARNING - Parâmetro 'adx_period' não mapeado para o Backtest, ignorando.
+2025-04-04 06:58:23,623 - iniciar_bot_ml - WARNING - Parâmetro 'di_threshold' não mapeado para o Backtest, ignorando.
+2025-04-04 06:58:23,623 - iniciar_bot_ml - WARNING - Parâmetro 'stop_multiplier_buy' não mapeado para o Backtest, ignorando.
+2025-04-04 06:58:23,623 - iniciar_bot_ml - WARNING - Parâmetro 'stop_multiplier_sell' não mapeado para o Backtest, ignorando.
+2025-04-04 06:58:23,624 - iniciar_bot_ml - WARNING - Parâmetro 'gain_multiplier_buy' não mapeado para o Backtest, ignorando.
+2025-04-04 06:58:23,624 - iniciar_bot_ml - WARNING - Parâmetro 'gain_multiplier_sell' não mapeado para o Backtest, ignorando.
+2025-04-04 06:58:24,616 - iniciar_bot_ml - WARNING - Parâmetro 'adx_threshold' não mapeado para o Backtest, ignorando.
+2025-04-04 06:58:24,617 - iniciar_bot_ml - WARNING - Parâmetro 'adx_period' não mapeado para o Backtest, ignorando.
+2025-04-04 06:58:24,617 - iniciar_bot_ml - WARNING - Parâmetro 'di_threshold' não mapeado para o Backtest, ignorando.
+2025-04-04 06:58:24,617 - iniciar_bot_ml - WARNING - Parâmetro 'stop_multiplier_buy' não mapeado para o Backtest, ignorando.
+2025-04-04 06:58:24,617 - iniciar_bot_ml - WARNING - Parâmetro 'stop_multiplier_sell' não mapeado para o Backtest, ignorando.
+2025-04-04 06:58:24,617 - iniciar_bot_ml - WARNING - Parâmetro 'gain_multiplier_buy' não mapeado para o Backtest, ignorando.
+2025-04-04 06:58:24,618 - iniciar_bot_ml - WARNING - Parâmetro 'gain_multiplier_sell' não mapeado para o Backtest, ignorando.
+2025-04-04 06:58:27,380 - iniciar_bot_ml - WARNING - Parâmetro 'adx_threshold' não mapeado para o Backtest, ignorando.
+2025-04-04 06:58:27,381 - iniciar_bot_ml - WARNING - Parâmetro 'adx_period' não mapeado para o Backtest, ignorando.
+2025-04-04 06:58:27,381 - iniciar_bot_ml - WARNING - Parâmetro 'di_threshold' não mapeado para o Backtest, ignorando.
+2025-04-04 06:58:27,381 - iniciar_bot_ml - WARNING - Parâmetro 'stop_multiplier_buy' não mapeado para o Backtest, ignorando.
+2025-04-04 06:58:27,381 - iniciar_bot_ml - WARNING - Parâmetro 'stop_multiplier_sell' não mapeado para o Backtest, ignorando.
+2025-04-04 06:58:27,382 - iniciar_bot_ml - WARNING - Parâmetro 'gain_multiplier_buy' não mapeado para o Backtest, ignorando.
+2025-04-04 06:58:27,382 - iniciar_bot_ml - WARNING - Parâmetro 'gain_multiplier_sell' não mapeado para o Backtest, ignorando.
+2025-04-04 06:58:28,635 - iniciar_bot_ml - WARNING - Parâmetro 'adx_threshold' não mapeado para o Backtest, ignorando.
+2025-04-04 06:58:28,635 - iniciar_bot_ml - WARNING - Parâmetro 'adx_period' não mapeado para o Backtest, ignorando.
+2025-04-04 06:58:28,635 - iniciar_bot_ml - WARNING - Parâmetro 'di_threshold' não mapeado para o Backtest, ignorando.
+2025-04-04 06:58:28,635 - iniciar_bot_ml - WARNING - Parâmetro 'stop_multiplier_buy' não mapeado para o Backtest, ignorando.
+2025-04-04 06:58:28,636 - iniciar_bot_ml - WARNING - Parâmetro 'stop_multiplier_sell' não mapeado para o Backtest, ignorando.
+2025-04-04 06:58:28,636 - iniciar_bot_ml - WARNING - Parâmetro 'gain_multiplier_buy' não mapeado para o Backtest, ignorando.
+2025-04-04 06:58:28,636 - iniciar_bot_ml - WARNING - Parâmetro 'gain_multiplier_sell' não mapeado para o Backtest, ignorando.
+2025-04-04 06:58:29,394 - iniciar_bot_ml - WARNING - Parâmetro 'adx_threshold' não mapeado para o Backtest, ignorando.
+2025-04-04 06:58:29,394 - iniciar_bot_ml - WARNING - Parâmetro 'adx_period' não mapeado para o Backtest, ignorando.
+2025-04-04 06:58:29,394 - iniciar_bot_ml - WARNING - Parâmetro 'di_threshold' não mapeado para o Backtest, ignorando.
+2025-04-04 06:58:29,394 - iniciar_bot_ml - WARNING - Parâmetro 'stop_multiplier_buy' não mapeado para o Backtest, ignorando.
+2025-04-04 06:58:29,395 - iniciar_bot_ml - WARNING - Parâmetro 'stop_multiplier_sell' não mapeado para o Backtest, ignorando.
+2025-04-04 06:58:29,395 - iniciar_bot_ml - WARNING - Parâmetro 'gain_multiplier_buy' não mapeado para o Backtest, ignorando.
+2025-04-04 06:58:29,395 - iniciar_bot_ml - WARNING - Parâmetro 'gain_multiplier_sell' não mapeado para o Backtest, ignorando.
+2025-04-04 06:58:30,156 - iniciar_bot_ml - WARNING - Parâmetro 'adx_threshold' não mapeado para o Backtest, ignorando.
+2025-04-04 06:58:30,157 - iniciar_bot_ml - WARNING - Parâmetro 'adx_period' não mapeado para o Backtest, ignorando.
+2025-04-04 06:58:30,157 - iniciar_bot_ml - WARNING - Parâmetro 'di_threshold' não mapeado para o Backtest, ignorando.
+2025-04-04 06:58:30,157 - iniciar_bot_ml - WARNING - Parâmetro 'stop_multiplier_buy' não mapeado para o Backtest, ignorando.
+2025-04-04 06:58:30,157 - iniciar_bot_ml - WARNING - Parâmetro 'stop_multiplier_sell' não mapeado para o Backtest, ignorando.
+2025-04-04 06:58:30,158 - iniciar_bot_ml - WARNING - Parâmetro 'gain_multiplier_buy' não mapeado para o Backtest, ignorando.
+2025-04-04 06:58:30,158 - iniciar_bot_ml - WARNING - Parâmetro 'gain_multiplier_sell' não mapeado para o Backtest, ignorando.
+2025-04-04 06:58:31,525 - iniciar_bot_ml - WARNING - Parâmetro 'adx_threshold' não mapeado para o Backtest, ignorando.
+2025-04-04 06:58:31,525 - iniciar_bot_ml - WARNING - Parâmetro 'adx_period' não mapeado para o Backtest, ignorando.
+2025-04-04 06:58:31,525 - iniciar_bot_ml - WARNING - Parâmetro 'di_threshold' não mapeado para o Backtest, ignorando.
+2025-04-04 06:58:31,525 - iniciar_bot_ml - WARNING - Parâmetro 'stop_multiplier_buy' não mapeado para o Backtest, ignorando.
+2025-04-04 06:58:31,526 - iniciar_bot_ml - WARNING - Parâmetro 'stop_multiplier_sell' não mapeado para o Backtest, ignorando.
+2025-04-04 06:58:31,526 - iniciar_bot_ml - WARNING - Parâmetro 'gain_multiplier_buy' não mapeado para o Backtest, ignorando.
+2025-04-04 06:58:31,526 - iniciar_bot_ml - WARNING - Parâmetro 'gain_multiplier_sell' não mapeado para o Backtest, ignorando.
+2025-04-04 06:58:32,355 - iniciar_bot_ml - WARNING - Parâmetro 'adx_threshold' não mapeado para o Backtest, ignorando.
+2025-04-04 06:58:32,356 - iniciar_bot_ml - WARNING - Parâmetro 'adx_period' não mapeado para o Backtest, ignorando.
+2025-04-04 06:58:32,356 - iniciar_bot_ml - WARNING - Parâmetro 'di_threshold' não mapeado para o Backtest, ignorando.
+2025-04-04 06:58:32,356 - iniciar_bot_ml - WARNING - Parâmetro 'stop_multiplier_buy' não mapeado para o Backtest, ignorando.
+2025-04-04 06:58:32,356 - iniciar_bot_ml - WARNING - Parâmetro 'stop_multiplier_sell' não mapeado para o Backtest, ignorando.
+2025-04-04 06:58:32,357 - iniciar_bot_ml - WARNING - Parâmetro 'gain_multiplier_buy' não mapeado para o Backtest, ignorando.
+2025-04-04 06:58:32,357 - iniciar_bot_ml - WARNING - Parâmetro 'gain_multiplier_sell' não mapeado para o Backtest, ignorando.
+2025-04-04 06:58:33,199 - iniciar_bot_ml - WARNING - Parâmetro 'adx_threshold' não mapeado para o Backtest, ignorando.
+2025-04-04 06:58:33,200 - iniciar_bot_ml - WARNING - Parâmetro 'adx_period' não mapeado para o Backtest, ignorando.
+2025-04-04 06:58:33,200 - iniciar_bot_ml - WARNING - Parâmetro 'di_threshold' não mapeado para o Backtest, ignorando.
+2025-04-04 06:58:33,200 - iniciar_bot_ml - WARNING - Parâmetro 'stop_multiplier_buy' não mapeado para o Backtest, ignorando.
+2025-04-04 06:58:33,200 - iniciar_bot_ml - WARNING - Parâmetro 'stop_multiplier_sell' não mapeado para o Backtest, ignorando.
+2025-04-04 06:58:33,201 - iniciar_bot_ml - WARNING - Parâmetro 'gain_multiplier_buy' não mapeado para o Backtest, ignorando.
+2025-04-04 06:58:33,201 - iniciar_bot_ml - WARNING - Parâmetro 'gain_multiplier_sell' não mapeado para o Backtest, ignorando.
+2025-04-04 06:58:34,072 - iniciar_bot_ml - WARNING - Parâmetro 'adx_threshold' não mapeado para o Backtest, ignorando.
+2025-04-04 06:58:34,072 - iniciar_bot_ml - WARNING - Parâmetro 'adx_period' não mapeado para o Backtest, ignorando.
+2025-04-04 06:58:34,072 - iniciar_bot_ml - WARNING - Parâmetro 'di_threshold' não mapeado para o Backtest, ignorando.
+2025-04-04 06:58:34,073 - iniciar_bot_ml - WARNING - Parâmetro 'stop_multiplier_buy' não mapeado para o Backtest, ignorando.
+2025-04-04 06:58:34,073 - iniciar_bot_ml - WARNING - Parâmetro 'stop_multiplier_sell' não mapeado para o Backtest, ignorando.
+2025-04-04 06:58:34,073 - iniciar_bot_ml - WARNING - Parâmetro 'gain_multiplier_buy' não mapeado para o Backtest, ignorando.
+2025-04-04 06:58:34,073 - iniciar_bot_ml - WARNING - Parâmetro 'gain_multiplier_sell' não mapeado para o Backtest, ignorando.
+2025-04-04 06:58:34,945 - iniciar_bot_ml - WARNING - Parâmetro 'adx_threshold' não mapeado para o Backtest, ignorando.
+2025-04-04 06:58:34,946 - iniciar_bot_ml - WARNING - Parâmetro 'adx_period' não mapeado para o Backtest, ignorando.
+2025-04-04 06:58:34,946 - iniciar_bot_ml - WARNING - Parâmetro 'di_threshold' não mapeado para o Backtest, ignorando.
+2025-04-04 06:58:34,946 - iniciar_bot_ml - WARNING - Parâmetro 'stop_multiplier_buy' não mapeado para o Backtest, ignorando.
+2025-04-04 06:58:34,946 - iniciar_bot_ml - WARNING - Parâmetro 'stop_multiplier_sell' não mapeado para o Backtest, ignorando.
+2025-04-04 06:58:34,947 - iniciar_bot_ml - WARNING - Parâmetro 'gain_multiplier_buy' não mapeado para o Backtest, ignorando.
+2025-04-04 06:58:34,947 - iniciar_bot_ml - WARNING - Parâmetro 'gain_multiplier_sell' não mapeado para o Backtest, ignorando.
+2025-04-04 06:58:35,820 - iniciar_bot_ml - WARNING - Parâmetro 'adx_threshold' não mapeado para o Backtest, ignorando.
+2025-04-04 06:58:35,821 - iniciar_bot_ml - WARNING - Parâmetro 'adx_period' não mapeado para o Backtest, ignorando.
+2025-04-04 06:58:35,821 - iniciar_bot_ml - WARNING - Parâmetro 'di_threshold' não mapeado para o Backtest, ignorando.
+2025-04-04 06:58:35,821 - iniciar_bot_ml - WARNING - Parâmetro 'stop_multiplier_buy' não mapeado para o Backtest, ignorando.
+2025-04-04 06:58:35,821 - iniciar_bot_ml - WARNING - Parâmetro 'stop_multiplier_sell' não mapeado para o Backtest, ignorando.
+2025-04-04 06:58:35,822 - iniciar_bot_ml - WARNING - Parâmetro 'gain_multiplier_buy' não mapeado para o Backtest, ignorando.
+2025-04-04 06:58:35,822 - iniciar_bot_ml - WARNING - Parâmetro 'gain_multiplier_sell' não mapeado para o Backtest, ignorando.
+2025-04-04 06:58:36,699 - iniciar_bot_ml - WARNING - Parâmetro 'adx_threshold' não mapeado para o Backtest, ignorando.
+2025-04-04 06:58:36,699 - iniciar_bot_ml - WARNING - Parâmetro 'adx_period' não mapeado para o Backtest, ignorando.
+2025-04-04 06:58:36,699 - iniciar_bot_ml - WARNING - Parâmetro 'di_threshold' não mapeado para o Backtest, ignorando.
+2025-04-04 06:58:36,700 - iniciar_bot_ml - WARNING - Parâmetro 'stop_multiplier_buy' não mapeado para o Backtest, ignorando.
+2025-04-04 06:58:36,700 - iniciar_bot_ml - WARNING - Parâmetro 'stop_multiplier_sell' não mapeado para o Backtest, ignorando.
+2025-04-04 06:58:36,700 - iniciar_bot_ml - WARNING - Parâmetro 'gain_multiplier_buy' não mapeado para o Backtest, ignorando.
+2025-04-04 06:58:36,700 - iniciar_bot_ml - WARNING - Parâmetro 'gain_multiplier_sell' não mapeado para o Backtest, ignorando.
+2025-04-04 06:58:38,789 - iniciar_bot_ml - WARNING - Parâmetro 'adx_threshold' não mapeado para o Backtest, ignorando.
+2025-04-04 06:58:38,790 - iniciar_bot_ml - WARNING - Parâmetro 'adx_period' não mapeado para o Backtest, ignorando.
+2025-04-04 06:58:38,790 - iniciar_bot_ml - WARNING - Parâmetro 'di_threshold' não mapeado para o Backtest, ignorando.
+2025-04-04 06:58:38,790 - iniciar_bot_ml - WARNING - Parâmetro 'stop_multiplier_buy' não mapeado para o Backtest, ignorando.
+2025-04-04 06:58:38,791 - iniciar_bot_ml - WARNING - Parâmetro 'stop_multiplier_sell' não mapeado para o Backtest, ignorando.
+2025-04-04 06:58:38,791 - iniciar_bot_ml - WARNING - Parâmetro 'gain_multiplier_buy' não mapeado para o Backtest, ignorando.
+2025-04-04 06:58:38,791 - iniciar_bot_ml - WARNING - Parâmetro 'gain_multiplier_sell' não mapeado para o Backtest, ignorando.
+2025-04-04 06:58:39,682 - iniciar_bot_ml - WARNING - Parâmetro 'adx_threshold' não mapeado para o Backtest, ignorando.
+2025-04-04 06:58:39,682 - iniciar_bot_ml - WARNING - Parâmetro 'adx_period' não mapeado para o Backtest, ignorando.
+2025-04-04 06:58:39,683 - iniciar_bot_ml - WARNING - Parâmetro 'di_threshold' não mapeado para o Backtest, ignorando.
+2025-04-04 06:58:39,683 - iniciar_bot_ml - WARNING - Parâmetro 'stop_multiplier_buy' não mapeado para o Backtest, ignorando.
+2025-04-04 06:58:39,683 - iniciar_bot_ml - WARNING - Parâmetro 'stop_multiplier_sell' não mapeado para o Backtest, ignorando.
+2025-04-04 06:58:39,683 - iniciar_bot_ml - WARNING - Parâmetro 'gain_multiplier_buy' não mapeado para o Backtest, ignorando.
+2025-04-04 06:58:39,684 - iniciar_bot_ml - WARNING - Parâmetro 'gain_multiplier_sell' não mapeado para o Backtest, ignorando.
+2025-04-04 06:58:40,553 - iniciar_bot_ml - WARNING - Parâmetro 'adx_threshold' não mapeado para o Backtest, ignorando.
+2025-04-04 06:58:40,553 - iniciar_bot_ml - WARNING - Parâmetro 'adx_period' não mapeado para o Backtest, ignorando.
+2025-04-04 06:58:40,554 - iniciar_bot_ml - WARNING - Parâmetro 'di_threshold' não mapeado para o Backtest, ignorando.
+2025-04-04 06:58:40,554 - iniciar_bot_ml - WARNING - Parâmetro 'stop_multiplier_buy' não mapeado para o Backtest, ignorando.
+2025-04-04 06:58:40,554 - iniciar_bot_ml - WARNING - Parâmetro 'stop_multiplier_sell' não mapeado para o Backtest, ignorando.
+2025-04-04 06:58:40,554 - iniciar_bot_ml - WARNING - Parâmetro 'gain_multiplier_buy' não mapeado para o Backtest, ignorando.
+2025-04-04 06:58:40,555 - iniciar_bot_ml - WARNING - Parâmetro 'gain_multiplier_sell' não mapeado para o Backtest, ignorando.
+2025-04-04 06:58:41,581 - iniciar_bot_ml - WARNING - Parâmetro 'adx_threshold' não mapeado para o Backtest, ignorando.
+2025-04-04 06:58:41,581 - iniciar_bot_ml - WARNING - Parâmetro 'adx_period' não mapeado para o Backtest, ignorando.
+2025-04-04 06:58:41,581 - iniciar_bot_ml - WARNING - Parâmetro 'di_threshold' não mapeado para o Backtest, ignorando.
+2025-04-04 06:58:41,582 - iniciar_bot_ml - WARNING - Parâmetro 'stop_multiplier_buy' não mapeado para o Backtest, ignorando.
+2025-04-04 06:58:41,582 - iniciar_bot_ml - WARNING - Parâmetro 'stop_multiplier_sell' não mapeado para o Backtest, ignorando.
+2025-04-04 06:58:41,582 - iniciar_bot_ml - WARNING - Parâmetro 'gain_multiplier_buy' não mapeado para o Backtest, ignorando.
+2025-04-04 06:58:41,582 - iniciar_bot_ml - WARNING - Parâmetro 'gain_multiplier_sell' não mapeado para o Backtest, ignorando.
+2025-04-04 06:58:42,450 - iniciar_bot_ml - WARNING - Parâmetro 'adx_threshold' não mapeado para o Backtest, ignorando.
+2025-04-04 06:58:42,450 - iniciar_bot_ml - WARNING - Parâmetro 'adx_period' não mapeado para o Backtest, ignorando.
+2025-04-04 06:58:42,450 - iniciar_bot_ml - WARNING - Parâmetro 'di_threshold' não mapeado para o Backtest, ignorando.
+2025-04-04 06:58:42,450 - iniciar_bot_ml - WARNING - Parâmetro 'stop_multiplier_buy' não mapeado para o Backtest, ignorando.
+2025-04-04 06:58:42,451 - iniciar_bot_ml - WARNING - Parâmetro 'stop_multiplier_sell' não mapeado para o Backtest, ignorando.
+2025-04-04 06:58:42,451 - iniciar_bot_ml - WARNING - Parâmetro 'gain_multiplier_buy' não mapeado para o Backtest, ignorando.
+2025-04-04 06:58:42,451 - iniciar_bot_ml - WARNING - Parâmetro 'gain_multiplier_sell' não mapeado para o Backtest, ignorando.
+2025-04-04 06:58:43,325 - iniciar_bot_ml - WARNING - Parâmetro 'adx_threshold' não mapeado para o Backtest, ignorando.
+2025-04-04 06:58:43,325 - iniciar_bot_ml - WARNING - Parâmetro 'adx_period' não mapeado para o Backtest, ignorando.
+2025-04-04 06:58:43,326 - iniciar_bot_ml - WARNING - Parâmetro 'di_threshold' não mapeado para o Backtest, ignorando.
+2025-04-04 06:58:43,326 - iniciar_bot_ml - WARNING - Parâmetro 'stop_multiplier_buy' não mapeado para o Backtest, ignorando.
+2025-04-04 06:58:43,326 - iniciar_bot_ml - WARNING - Parâmetro 'stop_multiplier_sell' não mapeado para o Backtest, ignorando.
+2025-04-04 06:58:43,326 - iniciar_bot_ml - WARNING - Parâmetro 'gain_multiplier_buy' não mapeado para o Backtest, ignorando.
+2025-04-04 06:58:43,327 - iniciar_bot_ml - WARNING - Parâmetro 'gain_multiplier_sell' não mapeado para o Backtest, ignorando.
+2025-04-04 06:58:44,223 - iniciar_bot_ml - WARNING - Parâmetro 'adx_threshold' não mapeado para o Backtest, ignorando.
+2025-04-04 06:58:44,223 - iniciar_bot_ml - WARNING - Parâmetro 'adx_period' não mapeado para o Backtest, ignorando.
+2025-04-04 06:58:44,224 - iniciar_bot_ml - WARNING - Parâmetro 'di_threshold' não mapeado para o Backtest, ignorando.
+2025-04-04 06:58:44,224 - iniciar_bot_ml - WARNING - Parâmetro 'stop_multiplier_buy' não mapeado para o Backtest, ignorando.
+2025-04-04 06:58:44,224 - iniciar_bot_ml - WARNING - Parâmetro 'stop_multiplier_sell' não mapeado para o Backtest, ignorando.
+2025-04-04 06:58:44,224 - iniciar_bot_ml - WARNING - Parâmetro 'gain_multiplier_buy' não mapeado para o Backtest, ignorando.
+2025-04-04 06:58:44,225 - iniciar_bot_ml - WARNING - Parâmetro 'gain_multiplier_sell' não mapeado para o Backtest, ignorando.
+2025-04-04 06:58:45,678 - iniciar_bot_ml - WARNING - Parâmetro 'adx_threshold' não mapeado para o Backtest, ignorando.
+2025-04-04 06:58:45,678 - iniciar_bot_ml - WARNING - Parâmetro 'adx_period' não mapeado para o Backtest, ignorando.
+2025-04-04 06:58:45,678 - iniciar_bot_ml - WARNING - Parâmetro 'di_threshold' não mapeado para o Backtest, ignorando.
+2025-04-04 06:58:45,679 - iniciar_bot_ml - WARNING - Parâmetro 'stop_multiplier_buy' não mapeado para o Backtest, ignorando.
+2025-04-04 06:58:45,679 - iniciar_bot_ml - WARNING - Parâmetro 'stop_multiplier_sell' não mapeado para o Backtest, ignorando.
+2025-04-04 06:58:45,679 - iniciar_bot_ml - WARNING - Parâmetro 'gain_multiplier_buy' não mapeado para o Backtest, ignorando.
+2025-04-04 06:58:45,679 - iniciar_bot_ml - WARNING - Parâmetro 'gain_multiplier_sell' não mapeado para o Backtest, ignorando.
+2025-04-04 06:58:46,589 - iniciar_bot_ml - WARNING - Parâmetro 'adx_threshold' não mapeado para o Backtest, ignorando.
+2025-04-04 06:58:46,589 - iniciar_bot_ml - WARNING - Parâmetro 'adx_period' não mapeado para o Backtest, ignorando.
+2025-04-04 06:58:46,589 - iniciar_bot_ml - WARNING - Parâmetro 'di_threshold' não mapeado para o Backtest, ignorando.
+2025-04-04 06:58:46,589 - iniciar_bot_ml - WARNING - Parâmetro 'stop_multiplier_buy' não mapeado para o Backtest, ignorando.
+2025-04-04 06:58:46,590 - iniciar_bot_ml - WARNING - Parâmetro 'stop_multiplier_sell' não mapeado para o Backtest, ignorando.
+2025-04-04 06:58:46,590 - iniciar_bot_ml - WARNING - Parâmetro 'gain_multiplier_buy' não mapeado para o Backtest, ignorando.
+2025-04-04 06:58:46,590 - iniciar_bot_ml - WARNING - Parâmetro 'gain_multiplier_sell' não mapeado para o Backtest, ignorando.
+2025-04-04 06:58:47,481 - iniciar_bot_ml - WARNING - Parâmetro 'adx_threshold' não mapeado para o Backtest, ignorando.
+2025-04-04 06:58:47,482 - iniciar_bot_ml - WARNING - Parâmetro 'adx_period' não mapeado para o Backtest, ignorando.
+2025-04-04 06:58:47,482 - iniciar_bot_ml - WARNING - Parâmetro 'di_threshold' não mapeado para o Backtest, ignorando.
+2025-04-04 06:58:47,482 - iniciar_bot_ml - WARNING - Parâmetro 'stop_multiplier_buy' não mapeado para o Backtest, ignorando.
+2025-04-04 06:58:47,482 - iniciar_bot_ml - WARNING - Parâmetro 'stop_multiplier_sell' não mapeado para o Backtest, ignorando.
+2025-04-04 06:58:47,483 - iniciar_bot_ml - WARNING - Parâmetro 'gain_multiplier_buy' não mapeado para o Backtest, ignorando.
+2025-04-04 06:58:47,483 - iniciar_bot_ml - WARNING - Parâmetro 'gain_multiplier_sell' não mapeado para o Backtest, ignorando.
+2025-04-04 06:58:48,389 - iniciar_bot_ml - WARNING - Parâmetro 'adx_threshold' não mapeado para o Backtest, ignorando.
+2025-04-04 06:58:48,389 - iniciar_bot_ml - WARNING - Parâmetro 'adx_period' não mapeado para o Backtest, ignorando.
+2025-04-04 06:58:48,389 - iniciar_bot_ml - WARNING - Parâmetro 'di_threshold' não mapeado para o Backtest, ignorando.
+2025-04-04 06:58:48,390 - iniciar_bot_ml - WARNING - Parâmetro 'stop_multiplier_buy' não mapeado para o Backtest, ignorando.
+2025-04-04 06:58:48,390 - iniciar_bot_ml - WARNING - Parâmetro 'stop_multiplier_sell' não mapeado para o Backtest, ignorando.
+2025-04-04 06:58:48,390 - iniciar_bot_ml - WARNING - Parâmetro 'gain_multiplier_buy' não mapeado para o Backtest, ignorando.
+2025-04-04 06:58:48,390 - iniciar_bot_ml - WARNING - Parâmetro 'gain_multiplier_sell' não mapeado para o Backtest, ignorando.
+2025-04-04 06:58:49,312 - iniciar_bot_ml - WARNING - Parâmetro 'adx_threshold' não mapeado para o Backtest, ignorando.
+2025-04-04 06:58:49,312 - iniciar_bot_ml - WARNING - Parâmetro 'adx_period' não mapeado para o Backtest, ignorando.
+2025-04-04 06:58:49,312 - iniciar_bot_ml - WARNING - Parâmetro 'di_threshold' não mapeado para o Backtest, ignorando.
+2025-04-04 06:58:49,313 - iniciar_bot_ml - WARNING - Parâmetro 'stop_multiplier_buy' não mapeado para o Backtest, ignorando.
+2025-04-04 06:58:49,313 - iniciar_bot_ml - WARNING - Parâmetro 'stop_multiplier_sell' não mapeado para o Backtest, ignorando.
+2025-04-04 06:58:49,313 - iniciar_bot_ml - WARNING - Parâmetro 'gain_multiplier_buy' não mapeado para o Backtest, ignorando.
+2025-04-04 06:58:49,313 - iniciar_bot_ml - WARNING - Parâmetro 'gain_multiplier_sell' não mapeado para o Backtest, ignorando.
+2025-04-04 06:58:50,243 - iniciar_bot_ml - WARNING - Parâmetro 'adx_threshold' não mapeado para o Backtest, ignorando.
+2025-04-04 06:58:50,243 - iniciar_bot_ml - WARNING - Parâmetro 'adx_period' não mapeado para o Backtest, ignorando.
+2025-04-04 06:58:50,243 - iniciar_bot_ml - WARNING - Parâmetro 'di_threshold' não mapeado para o Backtest, ignorando.
+2025-04-04 06:58:50,244 - iniciar_bot_ml - WARNING - Parâmetro 'stop_multiplier_buy' não mapeado para o Backtest, ignorando.
+2025-04-04 06:58:50,244 - iniciar_bot_ml - WARNING - Parâmetro 'stop_multiplier_sell' não mapeado para o Backtest, ignorando.
+2025-04-04 06:58:50,244 - iniciar_bot_ml - WARNING - Parâmetro 'gain_multiplier_buy' não mapeado para o Backtest, ignorando.
+2025-04-04 06:58:50,245 - iniciar_bot_ml - WARNING - Parâmetro 'gain_multiplier_sell' não mapeado para o Backtest, ignorando.
+2025-04-04 06:58:51,167 - iniciar_bot_ml - ERROR - Erro ao otimizar parâmetros: cannot unpack non-iterable Real object
+Traceback (most recent call last):
+  File "C:\Users\Arthur Age\Desktop\first_bot\iniciar_bot_ml.py", line 526, in otimizar_parametros
+    melhores_parametros = otimizador.otimizar(verbose=True)
+  File "C:\Users\Arthur Age\Desktop\first_bot\src\ml\otimizacao_bayesiana.py", line 89, in otimizar
+    for i, (param_name, _) in enumerate(self.espaco_busca):
+           ^^^^^^^^^^^^^^^
+TypeError: cannot unpack non-iterable Real object
+2025-04-04 06:59:03,448 - iniciar_bot_ml - INFO - Otimizando parâmetros para BTCUSDT (5m) - 60 dias...
+2025-04-04 06:59:03,451 - iniciar_bot_ml - INFO - Iniciando otimização bayesiana...
+2025-04-04 06:59:03,463 - iniciar_bot_ml - WARNING - Parâmetro 'adx_threshold' não mapeado para o Backtest, ignorando.
+2025-04-04 06:59:03,464 - iniciar_bot_ml - WARNING - Parâmetro 'adx_period' não mapeado para o Backtest, ignorando.
+2025-04-04 06:59:03,464 - iniciar_bot_ml - WARNING - Parâmetro 'di_threshold' não mapeado para o Backtest, ignorando.
+2025-04-04 06:59:03,464 - iniciar_bot_ml - WARNING - Parâmetro 'stop_multiplier_buy' não mapeado para o Backtest, ignorando.
+2025-04-04 06:59:03,464 - iniciar_bot_ml - WARNING - Parâmetro 'stop_multiplier_sell' não mapeado para o Backtest, ignorando.
+2025-04-04 06:59:03,465 - iniciar_bot_ml - WARNING - Parâmetro 'gain_multiplier_buy' não mapeado para o Backtest, ignorando.
+2025-04-04 06:59:03,465 - iniciar_bot_ml - WARNING - Parâmetro 'gain_multiplier_sell' não mapeado para o Backtest, ignorando.
+2025-04-04 06:59:04,726 - iniciar_bot_ml - WARNING - Parâmetro 'adx_threshold' não mapeado para o Backtest, ignorando.
+2025-04-04 06:59:04,727 - iniciar_bot_ml - WARNING - Parâmetro 'adx_period' não mapeado para o Backtest, ignorando.
+2025-04-04 06:59:04,727 - iniciar_bot_ml - WARNING - Parâmetro 'di_threshold' não mapeado para o Backtest, ignorando.
+2025-04-04 06:59:04,727 - iniciar_bot_ml - WARNING - Parâmetro 'stop_multiplier_buy' não mapeado para o Backtest, ignorando.
+2025-04-04 06:59:04,727 - iniciar_bot_ml - WARNING - Parâmetro 'stop_multiplier_sell' não mapeado para o Backtest, ignorando.
+2025-04-04 06:59:04,728 - iniciar_bot_ml - WARNING - Parâmetro 'gain_multiplier_buy' não mapeado para o Backtest, ignorando.
+2025-04-04 06:59:04,728 - iniciar_bot_ml - WARNING - Parâmetro 'gain_multiplier_sell' não mapeado para o Backtest, ignorando.
+2025-04-04 06:59:06,288 - iniciar_bot_ml - WARNING - Parâmetro 'adx_threshold' não mapeado para o Backtest, ignorando.
+2025-04-04 06:59:06,289 - iniciar_bot_ml - WARNING - Parâmetro 'adx_period' não mapeado para o Backtest, ignorando.
+2025-04-04 06:59:06,289 - iniciar_bot_ml - WARNING - Parâmetro 'di_threshold' não mapeado para o Backtest, ignorando.
+2025-04-04 06:59:06,289 - iniciar_bot_ml - WARNING - Parâmetro 'stop_multiplier_buy' não mapeado para o Backtest, ignorando.
+2025-04-04 06:59:06,289 - iniciar_bot_ml - WARNING - Parâmetro 'stop_multiplier_sell' não mapeado para o Backtest, ignorando.
+2025-04-04 06:59:06,290 - iniciar_bot_ml - WARNING - Parâmetro 'gain_multiplier_buy' não mapeado para o Backtest, ignorando.
+2025-04-04 06:59:06,290 - iniciar_bot_ml - WARNING - Parâmetro 'gain_multiplier_sell' não mapeado para o Backtest, ignorando.
+2025-04-04 06:59:07,048 - iniciar_bot_ml - WARNING - Parâmetro 'adx_threshold' não mapeado para o Backtest, ignorando.
+2025-04-04 06:59:07,048 - iniciar_bot_ml - WARNING - Parâmetro 'adx_period' não mapeado para o Backtest, ignorando.
+2025-04-04 06:59:07,049 - iniciar_bot_ml - WARNING - Parâmetro 'di_threshold' não mapeado para o Backtest, ignorando.
+2025-04-04 06:59:07,049 - iniciar_bot_ml - WARNING - Parâmetro 'stop_multiplier_buy' não mapeado para o Backtest, ignorando.
+2025-04-04 06:59:07,049 - iniciar_bot_ml - WARNING - Parâmetro 'stop_multiplier_sell' não mapeado para o Backtest, ignorando.
+2025-04-04 06:59:07,049 - iniciar_bot_ml - WARNING - Parâmetro 'gain_multiplier_buy' não mapeado para o Backtest, ignorando.
+2025-04-04 06:59:07,050 - iniciar_bot_ml - WARNING - Parâmetro 'gain_multiplier_sell' não mapeado para o Backtest, ignorando.
+2025-04-04 06:59:07,805 - iniciar_bot_ml - WARNING - Parâmetro 'adx_threshold' não mapeado para o Backtest, ignorando.
+2025-04-04 06:59:07,805 - iniciar_bot_ml - WARNING - Parâmetro 'adx_period' não mapeado para o Backtest, ignorando.
+2025-04-04 06:59:07,806 - iniciar_bot_ml - WARNING - Parâmetro 'di_threshold' não mapeado para o Backtest, ignorando.
+2025-04-04 06:59:07,806 - iniciar_bot_ml - WARNING - Parâmetro 'stop_multiplier_buy' não mapeado para o Backtest, ignorando.
+2025-04-04 06:59:07,806 - iniciar_bot_ml - WARNING - Parâmetro 'stop_multiplier_sell' não mapeado para o Backtest, ignorando.
+2025-04-04 06:59:07,806 - iniciar_bot_ml - WARNING - Parâmetro 'gain_multiplier_buy' não mapeado para o Backtest, ignorando.
+2025-04-04 06:59:07,806 - iniciar_bot_ml - WARNING - Parâmetro 'gain_multiplier_sell' não mapeado para o Backtest, ignorando.
+2025-04-04 06:59:08,563 - iniciar_bot_ml - WARNING - Parâmetro 'adx_threshold' não mapeado para o Backtest, ignorando.
+2025-04-04 06:59:08,564 - iniciar_bot_ml - WARNING - Parâmetro 'adx_period' não mapeado para o Backtest, ignorando.
+2025-04-04 06:59:08,564 - iniciar_bot_ml - WARNING - Parâmetro 'di_threshold' não mapeado para o Backtest, ignorando.
+2025-04-04 06:59:08,564 - iniciar_bot_ml - WARNING - Parâmetro 'stop_multiplier_buy' não mapeado para o Backtest, ignorando.
+2025-04-04 06:59:08,564 - iniciar_bot_ml - WARNING - Parâmetro 'stop_multiplier_sell' não mapeado para o Backtest, ignorando.
+2025-04-04 06:59:08,565 - iniciar_bot_ml - WARNING - Parâmetro 'gain_multiplier_buy' não mapeado para o Backtest, ignorando.
+2025-04-04 06:59:08,565 - iniciar_bot_ml - WARNING - Parâmetro 'gain_multiplier_sell' não mapeado para o Backtest, ignorando.
+2025-04-04 06:59:09,846 - iniciar_bot_ml - WARNING - Parâmetro 'adx_threshold' não mapeado para o Backtest, ignorando.
+2025-04-04 06:59:09,847 - iniciar_bot_ml - WARNING - Parâmetro 'adx_period' não mapeado para o Backtest, ignorando.
+2025-04-04 06:59:09,847 - iniciar_bot_ml - WARNING - Parâmetro 'di_threshold' não mapeado para o Backtest, ignorando.
+2025-04-04 06:59:09,847 - iniciar_bot_ml - WARNING - Parâmetro 'stop_multiplier_buy' não mapeado para o Backtest, ignorando.
+2025-04-04 06:59:09,847 - iniciar_bot_ml - WARNING - Parâmetro 'stop_multiplier_sell' não mapeado para o Backtest, ignorando.
+2025-04-04 06:59:09,848 - iniciar_bot_ml - WARNING - Parâmetro 'gain_multiplier_buy' não mapeado para o Backtest, ignorando.
+2025-04-04 06:59:09,848 - iniciar_bot_ml - WARNING - Parâmetro 'gain_multiplier_sell' não mapeado para o Backtest, ignorando.
+2025-04-04 06:59:11,839 - iniciar_bot_ml - WARNING - Parâmetro 'adx_threshold' não mapeado para o Backtest, ignorando.
+2025-04-04 06:59:11,840 - iniciar_bot_ml - WARNING - Parâmetro 'adx_period' não mapeado para o Backtest, ignorando.
+2025-04-04 06:59:11,840 - iniciar_bot_ml - WARNING - Parâmetro 'di_threshold' não mapeado para o Backtest, ignorando.
+2025-04-04 06:59:11,840 - iniciar_bot_ml - WARNING - Parâmetro 'stop_multiplier_buy' não mapeado para o Backtest, ignorando.
+2025-04-04 06:59:11,840 - iniciar_bot_ml - WARNING - Parâmetro 'stop_multiplier_sell' não mapeado para o Backtest, ignorando.
+2025-04-04 06:59:11,840 - iniciar_bot_ml - WARNING - Parâmetro 'gain_multiplier_buy' não mapeado para o Backtest, ignorando.
+2025-04-04 06:59:11,841 - iniciar_bot_ml - WARNING - Parâmetro 'gain_multiplier_sell' não mapeado para o Backtest, ignorando.
+2025-04-04 06:59:13,102 - iniciar_bot_ml - WARNING - Parâmetro 'adx_threshold' não mapeado para o Backtest, ignorando.
+2025-04-04 06:59:13,102 - iniciar_bot_ml - WARNING - Parâmetro 'adx_period' não mapeado para o Backtest, ignorando.
+2025-04-04 06:59:13,103 - iniciar_bot_ml - WARNING - Parâmetro 'di_threshold' não mapeado para o Backtest, ignorando.
+2025-04-04 06:59:13,103 - iniciar_bot_ml - WARNING - Parâmetro 'stop_multiplier_buy' não mapeado para o Backtest, ignorando.
+2025-04-04 06:59:13,103 - iniciar_bot_ml - WARNING - Parâmetro 'stop_multiplier_sell' não mapeado para o Backtest, ignorando.
+2025-04-04 06:59:13,103 - iniciar_bot_ml - WARNING - Parâmetro 'gain_multiplier_buy' não mapeado para o Backtest, ignorando.
+2025-04-04 06:59:13,104 - iniciar_bot_ml - WARNING - Parâmetro 'gain_multiplier_sell' não mapeado para o Backtest, ignorando.
+2025-04-04 06:59:13,882 - iniciar_bot_ml - WARNING - Parâmetro 'adx_threshold' não mapeado para o Backtest, ignorando.
+2025-04-04 06:59:13,882 - iniciar_bot_ml - WARNING - Parâmetro 'adx_period' não mapeado para o Backtest, ignorando.
+2025-04-04 06:59:13,882 - iniciar_bot_ml - WARNING - Parâmetro 'di_threshold' não mapeado para o Backtest, ignorando.
+2025-04-04 06:59:13,883 - iniciar_bot_ml - WARNING - Parâmetro 'stop_multiplier_buy' não mapeado para o Backtest, ignorando.
+2025-04-04 06:59:13,883 - iniciar_bot_ml - WARNING - Parâmetro 'stop_multiplier_sell' não mapeado para o Backtest, ignorando.
+2025-04-04 06:59:13,883 - iniciar_bot_ml - WARNING - Parâmetro 'gain_multiplier_buy' não mapeado para o Backtest, ignorando.
+2025-04-04 06:59:13,883 - iniciar_bot_ml - WARNING - Parâmetro 'gain_multiplier_sell' não mapeado para o Backtest, ignorando.
+2025-04-04 06:59:14,717 - iniciar_bot_ml - WARNING - Parâmetro 'adx_threshold' não mapeado para o Backtest, ignorando.
+2025-04-04 06:59:14,717 - iniciar_bot_ml - WARNING - Parâmetro 'adx_period' não mapeado para o Backtest, ignorando.
+2025-04-04 06:59:14,718 - iniciar_bot_ml - WARNING - Parâmetro 'di_threshold' não mapeado para o Backtest, ignorando.
+2025-04-04 06:59:14,718 - iniciar_bot_ml - WARNING - Parâmetro 'stop_multiplier_buy' não mapeado para o Backtest, ignorando.
+2025-04-04 06:59:14,718 - iniciar_bot_ml - WARNING - Parâmetro 'stop_multiplier_sell' não mapeado para o Backtest, ignorando.
+2025-04-04 06:59:14,718 - iniciar_bot_ml - WARNING - Parâmetro 'gain_multiplier_buy' não mapeado para o Backtest, ignorando.
+2025-04-04 06:59:14,718 - iniciar_bot_ml - WARNING - Parâmetro 'gain_multiplier_sell' não mapeado para o Backtest, ignorando.
+2025-04-04 06:59:15,589 - iniciar_bot_ml - WARNING - Parâmetro 'adx_threshold' não mapeado para o Backtest, ignorando.
+2025-04-04 06:59:15,589 - iniciar_bot_ml - WARNING - Parâmetro 'adx_period' não mapeado para o Backtest, ignorando.
+2025-04-04 06:59:15,590 - iniciar_bot_ml - WARNING - Parâmetro 'di_threshold' não mapeado para o Backtest, ignorando.
+2025-04-04 06:59:15,590 - iniciar_bot_ml - WARNING - Parâmetro 'stop_multiplier_buy' não mapeado para o Backtest, ignorando.
+2025-04-04 06:59:15,590 - iniciar_bot_ml - WARNING - Parâmetro 'stop_multiplier_sell' não mapeado para o Backtest, ignorando.
+2025-04-04 06:59:15,590 - iniciar_bot_ml - WARNING - Parâmetro 'gain_multiplier_buy' não mapeado para o Backtest, ignorando.
+2025-04-04 06:59:15,591 - iniciar_bot_ml - WARNING - Parâmetro 'gain_multiplier_sell' não mapeado para o Backtest, ignorando.
+2025-04-04 06:59:16,413 - iniciar_bot_ml - WARNING - Parâmetro 'adx_threshold' não mapeado para o Backtest, ignorando.
+2025-04-04 06:59:16,414 - iniciar_bot_ml - WARNING - Parâmetro 'adx_period' não mapeado para o Backtest, ignorando.
+2025-04-04 06:59:16,414 - iniciar_bot_ml - WARNING - Parâmetro 'di_threshold' não mapeado para o Backtest, ignorando.
+2025-04-04 06:59:16,414 - iniciar_bot_ml - WARNING - Parâmetro 'stop_multiplier_buy' não mapeado para o Backtest, ignorando.
+2025-04-04 06:59:16,414 - iniciar_bot_ml - WARNING - Parâmetro 'stop_multiplier_sell' não mapeado para o Backtest, ignorando.
+2025-04-04 06:59:16,414 - iniciar_bot_ml - WARNING - Parâmetro 'gain_multiplier_buy' não mapeado para o Backtest, ignorando.
+2025-04-04 06:59:16,415 - iniciar_bot_ml - WARNING - Parâmetro 'gain_multiplier_sell' não mapeado para o Backtest, ignorando.
+2025-04-04 06:59:17,780 - iniciar_bot_ml - WARNING - Parâmetro 'adx_threshold' não mapeado para o Backtest, ignorando.
+2025-04-04 06:59:17,780 - iniciar_bot_ml - WARNING - Parâmetro 'adx_period' não mapeado para o Backtest, ignorando.
+2025-04-04 06:59:17,781 - iniciar_bot_ml - WARNING - Parâmetro 'di_threshold' não mapeado para o Backtest, ignorando.
+2025-04-04 06:59:17,781 - iniciar_bot_ml - WARNING - Parâmetro 'stop_multiplier_buy' não mapeado para o Backtest, ignorando.
+2025-04-04 06:59:17,781 - iniciar_bot_ml - WARNING - Parâmetro 'stop_multiplier_sell' não mapeado para o Backtest, ignorando.
+2025-04-04 06:59:17,781 - iniciar_bot_ml - WARNING - Parâmetro 'gain_multiplier_buy' não mapeado para o Backtest, ignorando.
+2025-04-04 06:59:17,782 - iniciar_bot_ml - WARNING - Parâmetro 'gain_multiplier_sell' não mapeado para o Backtest, ignorando.
+2025-04-04 06:59:18,654 - iniciar_bot_ml - WARNING - Parâmetro 'adx_threshold' não mapeado para o Backtest, ignorando.
+2025-04-04 06:59:18,655 - iniciar_bot_ml - WARNING - Parâmetro 'adx_period' não mapeado para o Backtest, ignorando.
+2025-04-04 06:59:18,655 - iniciar_bot_ml - WARNING - Parâmetro 'di_threshold' não mapeado para o Backtest, ignorando.
+2025-04-04 06:59:18,655 - iniciar_bot_ml - WARNING - Parâmetro 'stop_multiplier_buy' não mapeado para o Backtest, ignorando.
+2025-04-04 06:59:18,656 - iniciar_bot_ml - WARNING - Parâmetro 'stop_multiplier_sell' não mapeado para o Backtest, ignorando.
+2025-04-04 06:59:18,656 - iniciar_bot_ml - WARNING - Parâmetro 'gain_multiplier_buy' não mapeado para o Backtest, ignorando.
+2025-04-04 06:59:18,656 - iniciar_bot_ml - WARNING - Parâmetro 'gain_multiplier_sell' não mapeado para o Backtest, ignorando.
+2025-04-04 06:59:19,521 - iniciar_bot_ml - WARNING - Parâmetro 'adx_threshold' não mapeado para o Backtest, ignorando.
+2025-04-04 06:59:19,521 - iniciar_bot_ml - WARNING - Parâmetro 'adx_period' não mapeado para o Backtest, ignorando.
+2025-04-04 06:59:19,521 - iniciar_bot_ml - WARNING - Parâmetro 'di_threshold' não mapeado para o Backtest, ignorando.
+2025-04-04 06:59:19,521 - iniciar_bot_ml - WARNING - Parâmetro 'stop_multiplier_buy' não mapeado para o Backtest, ignorando.
+2025-04-04 06:59:19,522 - iniciar_bot_ml - WARNING - Parâmetro 'stop_multiplier_sell' não mapeado para o Backtest, ignorando.
+2025-04-04 06:59:19,522 - iniciar_bot_ml - WARNING - Parâmetro 'gain_multiplier_buy' não mapeado para o Backtest, ignorando.
+2025-04-04 06:59:19,522 - iniciar_bot_ml - WARNING - Parâmetro 'gain_multiplier_sell' não mapeado para o Backtest, ignorando.
+2025-04-04 06:59:20,406 - iniciar_bot_ml - WARNING - Parâmetro 'adx_threshold' não mapeado para o Backtest, ignorando.
+2025-04-04 06:59:20,407 - iniciar_bot_ml - WARNING - Parâmetro 'adx_period' não mapeado para o Backtest, ignorando.
+2025-04-04 06:59:20,407 - iniciar_bot_ml - WARNING - Parâmetro 'di_threshold' não mapeado para o Backtest, ignorando.
+2025-04-04 06:59:20,407 - iniciar_bot_ml - WARNING - Parâmetro 'stop_multiplier_buy' não mapeado para o Backtest, ignorando.
+2025-04-04 06:59:20,408 - iniciar_bot_ml - WARNING - Parâmetro 'stop_multiplier_sell' não mapeado para o Backtest, ignorando.
+2025-04-04 06:59:20,408 - iniciar_bot_ml - WARNING - Parâmetro 'gain_multiplier_buy' não mapeado para o Backtest, ignorando.
+2025-04-04 06:59:20,408 - iniciar_bot_ml - WARNING - Parâmetro 'gain_multiplier_sell' não mapeado para o Backtest, ignorando.
+2025-04-04 06:59:21,287 - iniciar_bot_ml - WARNING - Parâmetro 'adx_threshold' não mapeado para o Backtest, ignorando.
+2025-04-04 06:59:21,288 - iniciar_bot_ml - WARNING - Parâmetro 'adx_period' não mapeado para o Backtest, ignorando.
+2025-04-04 06:59:21,288 - iniciar_bot_ml - WARNING - Parâmetro 'di_threshold' não mapeado para o Backtest, ignorando.
+2025-04-04 06:59:21,288 - iniciar_bot_ml - WARNING - Parâmetro 'stop_multiplier_buy' não mapeado para o Backtest, ignorando.
+2025-04-04 06:59:21,288 - iniciar_bot_ml - WARNING - Parâmetro 'stop_multiplier_sell' não mapeado para o Backtest, ignorando.
+2025-04-04 06:59:21,289 - iniciar_bot_ml - WARNING - Parâmetro 'gain_multiplier_buy' não mapeado para o Backtest, ignorando.
+2025-04-04 06:59:21,289 - iniciar_bot_ml - WARNING - Parâmetro 'gain_multiplier_sell' não mapeado para o Backtest, ignorando.
+2025-04-04 06:59:22,880 - iniciar_bot_ml - WARNING - Parâmetro 'adx_threshold' não mapeado para o Backtest, ignorando.
+2025-04-04 06:59:22,880 - iniciar_bot_ml - WARNING - Parâmetro 'adx_period' não mapeado para o Backtest, ignorando.
+2025-04-04 06:59:22,881 - iniciar_bot_ml - WARNING - Parâmetro 'di_threshold' não mapeado para o Backtest, ignorando.
+2025-04-04 06:59:22,881 - iniciar_bot_ml - WARNING - Parâmetro 'stop_multiplier_buy' não mapeado para o Backtest, ignorando.
+2025-04-04 06:59:22,881 - iniciar_bot_ml - WARNING - Parâmetro 'stop_multiplier_sell' não mapeado para o Backtest, ignorando.
+2025-04-04 06:59:22,881 - iniciar_bot_ml - WARNING - Parâmetro 'gain_multiplier_buy' não mapeado para o Backtest, ignorando.
+2025-04-04 06:59:22,882 - iniciar_bot_ml - WARNING - Parâmetro 'gain_multiplier_sell' não mapeado para o Backtest, ignorando.
+2025-04-04 06:59:25,607 - iniciar_bot_ml - WARNING - Parâmetro 'adx_threshold' não mapeado para o Backtest, ignorando.
+2025-04-04 06:59:25,608 - iniciar_bot_ml - WARNING - Parâmetro 'adx_period' não mapeado para o Backtest, ignorando.
+2025-04-04 06:59:25,608 - iniciar_bot_ml - WARNING - Parâmetro 'di_threshold' não mapeado para o Backtest, ignorando.
+2025-04-04 06:59:25,608 - iniciar_bot_ml - WARNING - Parâmetro 'stop_multiplier_buy' não mapeado para o Backtest, ignorando.
+2025-04-04 06:59:25,608 - iniciar_bot_ml - WARNING - Parâmetro 'stop_multiplier_sell' não mapeado para o Backtest, ignorando.
+2025-04-04 06:59:25,609 - iniciar_bot_ml - WARNING - Parâmetro 'gain_multiplier_buy' não mapeado para o Backtest, ignorando.
+2025-04-04 06:59:25,609 - iniciar_bot_ml - WARNING - Parâmetro 'gain_multiplier_sell' não mapeado para o Backtest, ignorando.
+2025-04-04 06:59:26,547 - iniciar_bot_ml - WARNING - Parâmetro 'adx_threshold' não mapeado para o Backtest, ignorando.
+2025-04-04 06:59:26,547 - iniciar_bot_ml - WARNING - Parâmetro 'adx_period' não mapeado para o Backtest, ignorando.
+2025-04-04 06:59:26,548 - iniciar_bot_ml - WARNING - Parâmetro 'di_threshold' não mapeado para o Backtest, ignorando.
+2025-04-04 06:59:26,548 - iniciar_bot_ml - WARNING - Parâmetro 'stop_multiplier_buy' não mapeado para o Backtest, ignorando.
+2025-04-04 06:59:26,548 - iniciar_bot_ml - WARNING - Parâmetro 'stop_multiplier_sell' não mapeado para o Backtest, ignorando.
+2025-04-04 06:59:26,549 - iniciar_bot_ml - WARNING - Parâmetro 'gain_multiplier_buy' não mapeado para o Backtest, ignorando.
+2025-04-04 06:59:26,549 - iniciar_bot_ml - WARNING - Parâmetro 'gain_multiplier_sell' não mapeado para o Backtest, ignorando.
+2025-04-04 06:59:27,508 - iniciar_bot_ml - WARNING - Parâmetro 'adx_threshold' não mapeado para o Backtest, ignorando.
+2025-04-04 06:59:27,509 - iniciar_bot_ml - WARNING - Parâmetro 'adx_period' não mapeado para o Backtest, ignorando.
+2025-04-04 06:59:27,509 - iniciar_bot_ml - WARNING - Parâmetro 'di_threshold' não mapeado para o Backtest, ignorando.
+2025-04-04 06:59:27,509 - iniciar_bot_ml - WARNING - Parâmetro 'stop_multiplier_buy' não mapeado para o Backtest, ignorando.
+2025-04-04 06:59:27,509 - iniciar_bot_ml - WARNING - Parâmetro 'stop_multiplier_sell' não mapeado para o Backtest, ignorando.
+2025-04-04 06:59:27,510 - iniciar_bot_ml - WARNING - Parâmetro 'gain_multiplier_buy' não mapeado para o Backtest, ignorando.
+2025-04-04 06:59:27,510 - iniciar_bot_ml - WARNING - Parâmetro 'gain_multiplier_sell' não mapeado para o Backtest, ignorando.
+2025-04-04 06:59:28,408 - iniciar_bot_ml - WARNING - Parâmetro 'adx_threshold' não mapeado para o Backtest, ignorando.
+2025-04-04 06:59:28,409 - iniciar_bot_ml - WARNING - Parâmetro 'adx_period' não mapeado para o Backtest, ignorando.
+2025-04-04 06:59:28,409 - iniciar_bot_ml - WARNING - Parâmetro 'di_threshold' não mapeado para o Backtest, ignorando.
+2025-04-04 06:59:28,409 - iniciar_bot_ml - WARNING - Parâmetro 'stop_multiplier_buy' não mapeado para o Backtest, ignorando.
+2025-04-04 06:59:28,409 - iniciar_bot_ml - WARNING - Parâmetro 'stop_multiplier_sell' não mapeado para o Backtest, ignorando.
+2025-04-04 06:59:28,409 - iniciar_bot_ml - WARNING - Parâmetro 'gain_multiplier_buy' não mapeado para o Backtest, ignorando.
+2025-04-04 06:59:28,410 - iniciar_bot_ml - WARNING - Parâmetro 'gain_multiplier_sell' não mapeado para o Backtest, ignorando.
+2025-04-04 06:59:29,300 - iniciar_bot_ml - WARNING - Parâmetro 'adx_threshold' não mapeado para o Backtest, ignorando.
+2025-04-04 06:59:29,300 - iniciar_bot_ml - WARNING - Parâmetro 'adx_period' não mapeado para o Backtest, ignorando.
+2025-04-04 06:59:29,301 - iniciar_bot_ml - WARNING - Parâmetro 'di_threshold' não mapeado para o Backtest, ignorando.
+2025-04-04 06:59:29,301 - iniciar_bot_ml - WARNING - Parâmetro 'stop_multiplier_buy' não mapeado para o Backtest, ignorando.
+2025-04-04 06:59:29,301 - iniciar_bot_ml - WARNING - Parâmetro 'stop_multiplier_sell' não mapeado para o Backtest, ignorando.
+2025-04-04 06:59:29,301 - iniciar_bot_ml - WARNING - Parâmetro 'gain_multiplier_buy' não mapeado para o Backtest, ignorando.
+2025-04-04 06:59:29,302 - iniciar_bot_ml - WARNING - Parâmetro 'gain_multiplier_sell' não mapeado para o Backtest, ignorando.
+2025-04-04 06:59:30,687 - iniciar_bot_ml - WARNING - Parâmetro 'adx_threshold' não mapeado para o Backtest, ignorando.
+2025-04-04 06:59:30,687 - iniciar_bot_ml - WARNING - Parâmetro 'adx_period' não mapeado para o Backtest, ignorando.
+2025-04-04 06:59:30,688 - iniciar_bot_ml - WARNING - Parâmetro 'di_threshold' não mapeado para o Backtest, ignorando.
+2025-04-04 06:59:30,688 - iniciar_bot_ml - WARNING - Parâmetro 'stop_multiplier_buy' não mapeado para o Backtest, ignorando.
+2025-04-04 06:59:30,688 - iniciar_bot_ml - WARNING - Parâmetro 'stop_multiplier_sell' não mapeado para o Backtest, ignorando.
+2025-04-04 06:59:30,688 - iniciar_bot_ml - WARNING - Parâmetro 'gain_multiplier_buy' não mapeado para o Backtest, ignorando.
+2025-04-04 06:59:30,689 - iniciar_bot_ml - WARNING - Parâmetro 'gain_multiplier_sell' não mapeado para o Backtest, ignorando.
+2025-04-04 06:59:32,087 - iniciar_bot_ml - WARNING - Parâmetro 'adx_threshold' não mapeado para o Backtest, ignorando.
+2025-04-04 06:59:32,088 - iniciar_bot_ml - WARNING - Parâmetro 'adx_period' não mapeado para o Backtest, ignorando.
+2025-04-04 06:59:32,088 - iniciar_bot_ml - WARNING - Parâmetro 'di_threshold' não mapeado para o Backtest, ignorando.
+2025-04-04 06:59:32,088 - iniciar_bot_ml - WARNING - Parâmetro 'stop_multiplier_buy' não mapeado para o Backtest, ignorando.
+2025-04-04 06:59:32,088 - iniciar_bot_ml - WARNING - Parâmetro 'stop_multiplier_sell' não mapeado para o Backtest, ignorando.
+2025-04-04 06:59:32,089 - iniciar_bot_ml - WARNING - Parâmetro 'gain_multiplier_buy' não mapeado para o Backtest, ignorando.
+2025-04-04 06:59:32,089 - iniciar_bot_ml - WARNING - Parâmetro 'gain_multiplier_sell' não mapeado para o Backtest, ignorando.
+2025-04-04 06:59:32,984 - iniciar_bot_ml - WARNING - Parâmetro 'adx_threshold' não mapeado para o Backtest, ignorando.
+2025-04-04 06:59:32,984 - iniciar_bot_ml - WARNING - Parâmetro 'adx_period' não mapeado para o Backtest, ignorando.
+2025-04-04 06:59:32,985 - iniciar_bot_ml - WARNING - Parâmetro 'di_threshold' não mapeado para o Backtest, ignorando.
+2025-04-04 06:59:32,985 - iniciar_bot_ml - WARNING - Parâmetro 'stop_multiplier_buy' não mapeado para o Backtest, ignorando.
+2025-04-04 06:59:32,985 - iniciar_bot_ml - WARNING - Parâmetro 'stop_multiplier_sell' não mapeado para o Backtest, ignorando.
+2025-04-04 06:59:32,985 - iniciar_bot_ml - WARNING - Parâmetro 'gain_multiplier_buy' não mapeado para o Backtest, ignorando.
+2025-04-04 06:59:32,986 - iniciar_bot_ml - WARNING - Parâmetro 'gain_multiplier_sell' não mapeado para o Backtest, ignorando.
+2025-04-04 06:59:34,438 - iniciar_bot_ml - WARNING - Parâmetro 'adx_threshold' não mapeado para o Backtest, ignorando.
+2025-04-04 06:59:34,438 - iniciar_bot_ml - WARNING - Parâmetro 'adx_period' não mapeado para o Backtest, ignorando.
+2025-04-04 06:59:34,438 - iniciar_bot_ml - WARNING - Parâmetro 'di_threshold' não mapeado para o Backtest, ignorando.
+2025-04-04 06:59:34,439 - iniciar_bot_ml - WARNING - Parâmetro 'stop_multiplier_buy' não mapeado para o Backtest, ignorando.
+2025-04-04 06:59:34,439 - iniciar_bot_ml - WARNING - Parâmetro 'stop_multiplier_sell' não mapeado para o Backtest, ignorando.
+2025-04-04 06:59:34,440 - iniciar_bot_ml - WARNING - Parâmetro 'gain_multiplier_buy' não mapeado para o Backtest, ignorando.
+2025-04-04 06:59:34,440 - iniciar_bot_ml - WARNING - Parâmetro 'gain_multiplier_sell' não mapeado para o Backtest, ignorando.
+2025-04-04 06:59:35,352 - iniciar_bot_ml - WARNING - Parâmetro 'adx_threshold' não mapeado para o Backtest, ignorando.
+2025-04-04 06:59:35,353 - iniciar_bot_ml - WARNING - Parâmetro 'adx_period' não mapeado para o Backtest, ignorando.
+2025-04-04 06:59:35,353 - iniciar_bot_ml - WARNING - Parâmetro 'di_threshold' não mapeado para o Backtest, ignorando.
+2025-04-04 06:59:35,353 - iniciar_bot_ml - WARNING - Parâmetro 'stop_multiplier_buy' não mapeado para o Backtest, ignorando.
+2025-04-04 06:59:35,353 - iniciar_bot_ml - WARNING - Parâmetro 'stop_multiplier_sell' não mapeado para o Backtest, ignorando.
+2025-04-04 06:59:35,354 - iniciar_bot_ml - WARNING - Parâmetro 'gain_multiplier_buy' não mapeado para o Backtest, ignorando.
+2025-04-04 06:59:35,354 - iniciar_bot_ml - WARNING - Parâmetro 'gain_multiplier_sell' não mapeado para o Backtest, ignorando.
+2025-04-04 06:59:36,847 - iniciar_bot_ml - WARNING - Parâmetro 'adx_threshold' não mapeado para o Backtest, ignorando.
+2025-04-04 06:59:36,848 - iniciar_bot_ml - WARNING - Parâmetro 'adx_period' não mapeado para o Backtest, ignorando.
+2025-04-04 06:59:36,848 - iniciar_bot_ml - WARNING - Parâmetro 'di_threshold' não mapeado para o Backtest, ignorando.
+2025-04-04 06:59:36,848 - iniciar_bot_ml - WARNING - Parâmetro 'stop_multiplier_buy' não mapeado para o Backtest, ignorando.
+2025-04-04 06:59:36,849 - iniciar_bot_ml - WARNING - Parâmetro 'stop_multiplier_sell' não mapeado para o Backtest, ignorando.
+2025-04-04 06:59:36,849 - iniciar_bot_ml - WARNING - Parâmetro 'gain_multiplier_buy' não mapeado para o Backtest, ignorando.
+2025-04-04 06:59:36,849 - iniciar_bot_ml - WARNING - Parâmetro 'gain_multiplier_sell' não mapeado para o Backtest, ignorando.
+2025-04-04 06:59:37,770 - iniciar_bot_ml - ERROR - Erro ao otimizar parâmetros: cannot unpack non-iterable Real object
+Traceback (most recent call last):
+  File "C:\Users\Arthur Age\Desktop\first_bot\iniciar_bot_ml.py", line 526, in otimizar_parametros
+    melhores_parametros = otimizador.otimizar(verbose=True)
+  File "C:\Users\Arthur Age\Desktop\first_bot\src\ml\otimizacao_bayesiana.py", line 89, in otimizar
+    for i, (param_name, _) in enumerate(self.espaco_busca):
+           ^^^^^^^^^^^^^^^
+TypeError: cannot unpack non-iterable Real object
+2025-04-04 06:59:50,071 - iniciar_bot_ml - INFO - Otimizando parâmetros para BTCUSDT (5m) - 60 dias...
+2025-04-04 06:59:50,075 - iniciar_bot_ml - INFO - Iniciando otimização bayesiana...
+2025-04-04 06:59:50,087 - iniciar_bot_ml - WARNING - Parâmetro 'adx_threshold' não mapeado para o Backtest, ignorando.
+2025-04-04 06:59:50,088 - iniciar_bot_ml - WARNING - Parâmetro 'adx_period' não mapeado para o Backtest, ignorando.
+2025-04-04 06:59:50,088 - iniciar_bot_ml - WARNING - Parâmetro 'di_threshold' não mapeado para o Backtest, ignorando.
+2025-04-04 06:59:50,088 - iniciar_bot_ml - WARNING - Parâmetro 'stop_multiplier_buy' não mapeado para o Backtest, ignorando.
+2025-04-04 06:59:50,088 - iniciar_bot_ml - WARNING - Parâmetro 'stop_multiplier_sell' não mapeado para o Backtest, ignorando.
+2025-04-04 06:59:50,089 - iniciar_bot_ml - WARNING - Parâmetro 'gain_multiplier_buy' não mapeado para o Backtest, ignorando.
+2025-04-04 06:59:50,089 - iniciar_bot_ml - WARNING - Parâmetro 'gain_multiplier_sell' não mapeado para o Backtest, ignorando.
+2025-04-04 06:59:51,347 - iniciar_bot_ml - WARNING - Parâmetro 'adx_threshold' não mapeado para o Backtest, ignorando.
+2025-04-04 06:59:51,348 - iniciar_bot_ml - WARNING - Parâmetro 'adx_period' não mapeado para o Backtest, ignorando.
+2025-04-04 06:59:51,348 - iniciar_bot_ml - WARNING - Parâmetro 'di_threshold' não mapeado para o Backtest, ignorando.
+2025-04-04 06:59:51,348 - iniciar_bot_ml - WARNING - Parâmetro 'stop_multiplier_buy' não mapeado para o Backtest, ignorando.
+2025-04-04 06:59:51,348 - iniciar_bot_ml - WARNING - Parâmetro 'stop_multiplier_sell' não mapeado para o Backtest, ignorando.
+2025-04-04 06:59:51,348 - iniciar_bot_ml - WARNING - Parâmetro 'gain_multiplier_buy' não mapeado para o Backtest, ignorando.
+2025-04-04 06:59:51,349 - iniciar_bot_ml - WARNING - Parâmetro 'gain_multiplier_sell' não mapeado para o Backtest, ignorando.
+2025-04-04 06:59:52,626 - iniciar_bot_ml - WARNING - Parâmetro 'adx_threshold' não mapeado para o Backtest, ignorando.
+2025-04-04 06:59:52,626 - iniciar_bot_ml - WARNING - Parâmetro 'adx_period' não mapeado para o Backtest, ignorando.
+2025-04-04 06:59:52,626 - iniciar_bot_ml - WARNING - Parâmetro 'di_threshold' não mapeado para o Backtest, ignorando.
+2025-04-04 06:59:52,627 - iniciar_bot_ml - WARNING - Parâmetro 'stop_multiplier_buy' não mapeado para o Backtest, ignorando.
+2025-04-04 06:59:52,627 - iniciar_bot_ml - WARNING - Parâmetro 'stop_multiplier_sell' não mapeado para o Backtest, ignorando.
+2025-04-04 06:59:52,627 - iniciar_bot_ml - WARNING - Parâmetro 'gain_multiplier_buy' não mapeado para o Backtest, ignorando.
+2025-04-04 06:59:52,627 - iniciar_bot_ml - WARNING - Parâmetro 'gain_multiplier_sell' não mapeado para o Backtest, ignorando.
+2025-04-04 06:59:53,376 - iniciar_bot_ml - WARNING - Parâmetro 'adx_threshold' não mapeado para o Backtest, ignorando.
+2025-04-04 06:59:53,376 - iniciar_bot_ml - WARNING - Parâmetro 'adx_period' não mapeado para o Backtest, ignorando.
+2025-04-04 06:59:53,376 - iniciar_bot_ml - WARNING - Parâmetro 'di_threshold' não mapeado para o Backtest, ignorando.
+2025-04-04 06:59:53,376 - iniciar_bot_ml - WARNING - Parâmetro 'stop_multiplier_buy' não mapeado para o Backtest, ignorando.
+2025-04-04 06:59:53,377 - iniciar_bot_ml - WARNING - Parâmetro 'stop_multiplier_sell' não mapeado para o Backtest, ignorando.
+2025-04-04 06:59:53,377 - iniciar_bot_ml - WARNING - Parâmetro 'gain_multiplier_buy' não mapeado para o Backtest, ignorando.
+2025-04-04 06:59:53,377 - iniciar_bot_ml - WARNING - Parâmetro 'gain_multiplier_sell' não mapeado para o Backtest, ignorando.
+2025-04-04 06:59:54,641 - iniciar_bot_ml - WARNING - Parâmetro 'adx_threshold' não mapeado para o Backtest, ignorando.
+2025-04-04 06:59:54,641 - iniciar_bot_ml - WARNING - Parâmetro 'adx_period' não mapeado para o Backtest, ignorando.
+2025-04-04 06:59:54,641 - iniciar_bot_ml - WARNING - Parâmetro 'di_threshold' não mapeado para o Backtest, ignorando.
+2025-04-04 06:59:54,641 - iniciar_bot_ml - WARNING - Parâmetro 'stop_multiplier_buy' não mapeado para o Backtest, ignorando.
+2025-04-04 06:59:54,641 - iniciar_bot_ml - WARNING - Parâmetro 'stop_multiplier_sell' não mapeado para o Backtest, ignorando.
+2025-04-04 06:59:54,642 - iniciar_bot_ml - WARNING - Parâmetro 'gain_multiplier_buy' não mapeado para o Backtest, ignorando.
+2025-04-04 06:59:54,642 - iniciar_bot_ml - WARNING - Parâmetro 'gain_multiplier_sell' não mapeado para o Backtest, ignorando.
+2025-04-04 06:59:55,417 - iniciar_bot_ml - WARNING - Parâmetro 'adx_threshold' não mapeado para o Backtest, ignorando.
+2025-04-04 06:59:55,417 - iniciar_bot_ml - WARNING - Parâmetro 'adx_period' não mapeado para o Backtest, ignorando.
+2025-04-04 06:59:55,417 - iniciar_bot_ml - WARNING - Parâmetro 'di_threshold' não mapeado para o Backtest, ignorando.
+2025-04-04 06:59:55,418 - iniciar_bot_ml - WARNING - Parâmetro 'stop_multiplier_buy' não mapeado para o Backtest, ignorando.
+2025-04-04 06:59:55,418 - iniciar_bot_ml - WARNING - Parâmetro 'stop_multiplier_sell' não mapeado para o Backtest, ignorando.
+2025-04-04 06:59:55,418 - iniciar_bot_ml - WARNING - Parâmetro 'gain_multiplier_buy' não mapeado para o Backtest, ignorando.
+2025-04-04 06:59:55,418 - iniciar_bot_ml - WARNING - Parâmetro 'gain_multiplier_sell' não mapeado para o Backtest, ignorando.
+2025-04-04 06:59:56,165 - iniciar_bot_ml - WARNING - Parâmetro 'adx_threshold' não mapeado para o Backtest, ignorando.
+2025-04-04 06:59:56,165 - iniciar_bot_ml - WARNING - Parâmetro 'adx_period' não mapeado para o Backtest, ignorando.
+2025-04-04 06:59:56,165 - iniciar_bot_ml - WARNING - Parâmetro 'di_threshold' não mapeado para o Backtest, ignorando.
+2025-04-04 06:59:56,165 - iniciar_bot_ml - WARNING - Parâmetro 'stop_multiplier_buy' não mapeado para o Backtest, ignorando.
+2025-04-04 06:59:56,166 - iniciar_bot_ml - WARNING - Parâmetro 'stop_multiplier_sell' não mapeado para o Backtest, ignorando.
+2025-04-04 06:59:56,166 - iniciar_bot_ml - WARNING - Parâmetro 'gain_multiplier_buy' não mapeado para o Backtest, ignorando.
+2025-04-04 06:59:56,166 - iniciar_bot_ml - WARNING - Parâmetro 'gain_multiplier_sell' não mapeado para o Backtest, ignorando.
+2025-04-04 06:59:57,422 - iniciar_bot_ml - WARNING - Parâmetro 'adx_threshold' não mapeado para o Backtest, ignorando.
+2025-04-04 06:59:57,422 - iniciar_bot_ml - WARNING - Parâmetro 'adx_period' não mapeado para o Backtest, ignorando.
+2025-04-04 06:59:57,423 - iniciar_bot_ml - WARNING - Parâmetro 'di_threshold' não mapeado para o Backtest, ignorando.
+2025-04-04 06:59:57,423 - iniciar_bot_ml - WARNING - Parâmetro 'stop_multiplier_buy' não mapeado para o Backtest, ignorando.
+2025-04-04 06:59:57,423 - iniciar_bot_ml - WARNING - Parâmetro 'stop_multiplier_sell' não mapeado para o Backtest, ignorando.
+2025-04-04 06:59:57,423 - iniciar_bot_ml - WARNING - Parâmetro 'gain_multiplier_buy' não mapeado para o Backtest, ignorando.
+2025-04-04 06:59:57,424 - iniciar_bot_ml - WARNING - Parâmetro 'gain_multiplier_sell' não mapeado para o Backtest, ignorando.
+2025-04-04 06:59:58,172 - iniciar_bot_ml - WARNING - Parâmetro 'adx_threshold' não mapeado para o Backtest, ignorando.
+2025-04-04 06:59:58,172 - iniciar_bot_ml - WARNING - Parâmetro 'adx_period' não mapeado para o Backtest, ignorando.
+2025-04-04 06:59:58,172 - iniciar_bot_ml - WARNING - Parâmetro 'di_threshold' não mapeado para o Backtest, ignorando.
+2025-04-04 06:59:58,172 - iniciar_bot_ml - WARNING - Parâmetro 'stop_multiplier_buy' não mapeado para o Backtest, ignorando.
+2025-04-04 06:59:58,173 - iniciar_bot_ml - WARNING - Parâmetro 'stop_multiplier_sell' não mapeado para o Backtest, ignorando.
+2025-04-04 06:59:58,173 - iniciar_bot_ml - WARNING - Parâmetro 'gain_multiplier_buy' não mapeado para o Backtest, ignorando.
+2025-04-04 06:59:58,173 - iniciar_bot_ml - WARNING - Parâmetro 'gain_multiplier_sell' não mapeado para o Backtest, ignorando.
+2025-04-04 06:59:58,918 - iniciar_bot_ml - WARNING - Parâmetro 'adx_threshold' não mapeado para o Backtest, ignorando.
+2025-04-04 06:59:58,919 - iniciar_bot_ml - WARNING - Parâmetro 'adx_period' não mapeado para o Backtest, ignorando.
+2025-04-04 06:59:58,919 - iniciar_bot_ml - WARNING - Parâmetro 'di_threshold' não mapeado para o Backtest, ignorando.
+2025-04-04 06:59:58,919 - iniciar_bot_ml - WARNING - Parâmetro 'stop_multiplier_buy' não mapeado para o Backtest, ignorando.
+2025-04-04 06:59:58,920 - iniciar_bot_ml - WARNING - Parâmetro 'stop_multiplier_sell' não mapeado para o Backtest, ignorando.
+2025-04-04 06:59:58,920 - iniciar_bot_ml - WARNING - Parâmetro 'gain_multiplier_buy' não mapeado para o Backtest, ignorando.
+2025-04-04 06:59:58,920 - iniciar_bot_ml - WARNING - Parâmetro 'gain_multiplier_sell' não mapeado para o Backtest, ignorando.
+2025-04-04 06:59:59,750 - iniciar_bot_ml - WARNING - Parâmetro 'adx_threshold' não mapeado para o Backtest, ignorando.
+2025-04-04 06:59:59,751 - iniciar_bot_ml - WARNING - Parâmetro 'adx_period' não mapeado para o Backtest, ignorando.
+2025-04-04 06:59:59,751 - iniciar_bot_ml - WARNING - Parâmetro 'di_threshold' não mapeado para o Backtest, ignorando.
+2025-04-04 06:59:59,751 - iniciar_bot_ml - WARNING - Parâmetro 'stop_multiplier_buy' não mapeado para o Backtest, ignorando.
+2025-04-04 06:59:59,751 - iniciar_bot_ml - WARNING - Parâmetro 'stop_multiplier_sell' não mapeado para o Backtest, ignorando.
+2025-04-04 06:59:59,752 - iniciar_bot_ml - WARNING - Parâmetro 'gain_multiplier_buy' não mapeado para o Backtest, ignorando.
+2025-04-04 06:59:59,752 - iniciar_bot_ml - WARNING - Parâmetro 'gain_multiplier_sell' não mapeado para o Backtest, ignorando.
+2025-04-04 07:00:00,596 - iniciar_bot_ml - WARNING - Parâmetro 'adx_threshold' não mapeado para o Backtest, ignorando.
+2025-04-04 07:00:00,596 - iniciar_bot_ml - WARNING - Parâmetro 'adx_period' não mapeado para o Backtest, ignorando.
+2025-04-04 07:00:00,597 - iniciar_bot_ml - WARNING - Parâmetro 'di_threshold' não mapeado para o Backtest, ignorando.
+2025-04-04 07:00:00,597 - iniciar_bot_ml - WARNING - Parâmetro 'stop_multiplier_buy' não mapeado para o Backtest, ignorando.
+2025-04-04 07:00:00,597 - iniciar_bot_ml - WARNING - Parâmetro 'stop_multiplier_sell' não mapeado para o Backtest, ignorando.
+2025-04-04 07:00:00,597 - iniciar_bot_ml - WARNING - Parâmetro 'gain_multiplier_buy' não mapeado para o Backtest, ignorando.
+2025-04-04 07:00:00,598 - iniciar_bot_ml - WARNING - Parâmetro 'gain_multiplier_sell' não mapeado para o Backtest, ignorando.
+2025-04-04 07:00:01,469 - iniciar_bot_ml - WARNING - Parâmetro 'adx_threshold' não mapeado para o Backtest, ignorando.
+2025-04-04 07:00:01,469 - iniciar_bot_ml - WARNING - Parâmetro 'adx_period' não mapeado para o Backtest, ignorando.
+2025-04-04 07:00:01,469 - iniciar_bot_ml - WARNING - Parâmetro 'di_threshold' não mapeado para o Backtest, ignorando.
+2025-04-04 07:00:01,470 - iniciar_bot_ml - WARNING - Parâmetro 'stop_multiplier_buy' não mapeado para o Backtest, ignorando.
+2025-04-04 07:00:01,470 - iniciar_bot_ml - WARNING - Parâmetro 'stop_multiplier_sell' não mapeado para o Backtest, ignorando.
+2025-04-04 07:00:01,470 - iniciar_bot_ml - WARNING - Parâmetro 'gain_multiplier_buy' não mapeado para o Backtest, ignorando.
+2025-04-04 07:00:01,471 - iniciar_bot_ml - WARNING - Parâmetro 'gain_multiplier_sell' não mapeado para o Backtest, ignorando.
+2025-04-04 07:00:02,981 - iniciar_bot_ml - WARNING - Parâmetro 'adx_threshold' não mapeado para o Backtest, ignorando.
+2025-04-04 07:00:02,981 - iniciar_bot_ml - WARNING - Parâmetro 'adx_period' não mapeado para o Backtest, ignorando.
+2025-04-04 07:00:02,982 - iniciar_bot_ml - WARNING - Parâmetro 'di_threshold' não mapeado para o Backtest, ignorando.
+2025-04-04 07:00:02,982 - iniciar_bot_ml - WARNING - Parâmetro 'stop_multiplier_buy' não mapeado para o Backtest, ignorando.
+2025-04-04 07:00:02,982 - iniciar_bot_ml - WARNING - Parâmetro 'stop_multiplier_sell' não mapeado para o Backtest, ignorando.
+2025-04-04 07:00:02,982 - iniciar_bot_ml - WARNING - Parâmetro 'gain_multiplier_buy' não mapeado para o Backtest, ignorando.
+2025-04-04 07:00:02,983 - iniciar_bot_ml - WARNING - Parâmetro 'gain_multiplier_sell' não mapeado para o Backtest, ignorando.
+2025-04-04 07:00:03,907 - iniciar_bot_ml - WARNING - Parâmetro 'adx_threshold' não mapeado para o Backtest, ignorando.
+2025-04-04 07:00:03,907 - iniciar_bot_ml - WARNING - Parâmetro 'adx_period' não mapeado para o Backtest, ignorando.
+2025-04-04 07:00:03,907 - iniciar_bot_ml - WARNING - Parâmetro 'di_threshold' não mapeado para o Backtest, ignorando.
+2025-04-04 07:00:03,907 - iniciar_bot_ml - WARNING - Parâmetro 'stop_multiplier_buy' não mapeado para o Backtest, ignorando.
+2025-04-04 07:00:03,908 - iniciar_bot_ml - WARNING - Parâmetro 'stop_multiplier_sell' não mapeado para o Backtest, ignorando.
+2025-04-04 07:00:03,908 - iniciar_bot_ml - WARNING - Parâmetro 'gain_multiplier_buy' não mapeado para o Backtest, ignorando.
+2025-04-04 07:00:03,908 - iniciar_bot_ml - WARNING - Parâmetro 'gain_multiplier_sell' não mapeado para o Backtest, ignorando.
+2025-04-04 07:00:05,407 - iniciar_bot_ml - WARNING - Parâmetro 'adx_threshold' não mapeado para o Backtest, ignorando.
+2025-04-04 07:00:05,407 - iniciar_bot_ml - WARNING - Parâmetro 'adx_period' não mapeado para o Backtest, ignorando.
+2025-04-04 07:00:05,408 - iniciar_bot_ml - WARNING - Parâmetro 'di_threshold' não mapeado para o Backtest, ignorando.
+2025-04-04 07:00:05,408 - iniciar_bot_ml - WARNING - Parâmetro 'stop_multiplier_buy' não mapeado para o Backtest, ignorando.
+2025-04-04 07:00:05,408 - iniciar_bot_ml - WARNING - Parâmetro 'stop_multiplier_sell' não mapeado para o Backtest, ignorando.
+2025-04-04 07:00:05,409 - iniciar_bot_ml - WARNING - Parâmetro 'gain_multiplier_buy' não mapeado para o Backtest, ignorando.
+2025-04-04 07:00:05,409 - iniciar_bot_ml - WARNING - Parâmetro 'gain_multiplier_sell' não mapeado para o Backtest, ignorando.
+2025-04-04 07:00:07,046 - iniciar_bot_ml - WARNING - Parâmetro 'adx_threshold' não mapeado para o Backtest, ignorando.
+2025-04-04 07:00:07,047 - iniciar_bot_ml - WARNING - Parâmetro 'adx_period' não mapeado para o Backtest, ignorando.
+2025-04-04 07:00:07,047 - iniciar_bot_ml - WARNING - Parâmetro 'di_threshold' não mapeado para o Backtest, ignorando.
+2025-04-04 07:00:07,047 - iniciar_bot_ml - WARNING - Parâmetro 'stop_multiplier_buy' não mapeado para o Backtest, ignorando.
+2025-04-04 07:00:07,048 - iniciar_bot_ml - WARNING - Parâmetro 'stop_multiplier_sell' não mapeado para o Backtest, ignorando.
+2025-04-04 07:00:07,048 - iniciar_bot_ml - WARNING - Parâmetro 'gain_multiplier_buy' não mapeado para o Backtest, ignorando.
+2025-04-04 07:00:07,048 - iniciar_bot_ml - WARNING - Parâmetro 'gain_multiplier_sell' não mapeado para o Backtest, ignorando.
+2025-04-04 07:00:08,533 - iniciar_bot_ml - WARNING - Parâmetro 'adx_threshold' não mapeado para o Backtest, ignorando.
+2025-04-04 07:00:08,533 - iniciar_bot_ml - WARNING - Parâmetro 'adx_period' não mapeado para o Backtest, ignorando.
+2025-04-04 07:00:08,533 - iniciar_bot_ml - WARNING - Parâmetro 'di_threshold' não mapeado para o Backtest, ignorando.
+2025-04-04 07:00:08,533 - iniciar_bot_ml - WARNING - Parâmetro 'stop_multiplier_buy' não mapeado para o Backtest, ignorando.
+2025-04-04 07:00:08,534 - iniciar_bot_ml - WARNING - Parâmetro 'stop_multiplier_sell' não mapeado para o Backtest, ignorando.
+2025-04-04 07:00:08,534 - iniciar_bot_ml - WARNING - Parâmetro 'gain_multiplier_buy' não mapeado para o Backtest, ignorando.
+2025-04-04 07:00:08,534 - iniciar_bot_ml - WARNING - Parâmetro 'gain_multiplier_sell' não mapeado para o Backtest, ignorando.
+2025-04-04 07:00:09,527 - iniciar_bot_ml - WARNING - Parâmetro 'adx_threshold' não mapeado para o Backtest, ignorando.
+2025-04-04 07:00:09,528 - iniciar_bot_ml - WARNING - Parâmetro 'adx_period' não mapeado para o Backtest, ignorando.
+2025-04-04 07:00:09,528 - iniciar_bot_ml - WARNING - Parâmetro 'di_threshold' não mapeado para o Backtest, ignorando.
+2025-04-04 07:00:09,528 - iniciar_bot_ml - WARNING - Parâmetro 'stop_multiplier_buy' não mapeado para o Backtest, ignorando.
+2025-04-04 07:00:09,528 - iniciar_bot_ml - WARNING - Parâmetro 'stop_multiplier_sell' não mapeado para o Backtest, ignorando.
+2025-04-04 07:00:09,529 - iniciar_bot_ml - WARNING - Parâmetro 'gain_multiplier_buy' não mapeado para o Backtest, ignorando.
+2025-04-04 07:00:09,529 - iniciar_bot_ml - WARNING - Parâmetro 'gain_multiplier_sell' não mapeado para o Backtest, ignorando.
+2025-04-04 07:00:10,482 - iniciar_bot_ml - WARNING - Parâmetro 'adx_threshold' não mapeado para o Backtest, ignorando.
+2025-04-04 07:00:10,483 - iniciar_bot_ml - WARNING - Parâmetro 'adx_period' não mapeado para o Backtest, ignorando.
+2025-04-04 07:00:10,483 - iniciar_bot_ml - WARNING - Parâmetro 'di_threshold' não mapeado para o Backtest, ignorando.
+2025-04-04 07:00:10,483 - iniciar_bot_ml - WARNING - Parâmetro 'stop_multiplier_buy' não mapeado para o Backtest, ignorando.
+2025-04-04 07:00:10,483 - iniciar_bot_ml - WARNING - Parâmetro 'stop_multiplier_sell' não mapeado para o Backtest, ignorando.
+2025-04-04 07:00:10,483 - iniciar_bot_ml - WARNING - Parâmetro 'gain_multiplier_buy' não mapeado para o Backtest, ignorando.
+2025-04-04 07:00:10,484 - iniciar_bot_ml - WARNING - Parâmetro 'gain_multiplier_sell' não mapeado para o Backtest, ignorando.
+2025-04-04 07:00:11,460 - iniciar_bot_ml - WARNING - Parâmetro 'adx_threshold' não mapeado para o Backtest, ignorando.
+2025-04-04 07:00:11,460 - iniciar_bot_ml - WARNING - Parâmetro 'adx_period' não mapeado para o Backtest, ignorando.
+2025-04-04 07:00:11,461 - iniciar_bot_ml - WARNING - Parâmetro 'di_threshold' não mapeado para o Backtest, ignorando.
+2025-04-04 07:00:11,461 - iniciar_bot_ml - WARNING - Parâmetro 'stop_multiplier_buy' não mapeado para o Backtest, ignorando.
+2025-04-04 07:00:11,461 - iniciar_bot_ml - WARNING - Parâmetro 'stop_multiplier_sell' não mapeado para o Backtest, ignorando.
+2025-04-04 07:00:11,461 - iniciar_bot_ml - WARNING - Parâmetro 'gain_multiplier_buy' não mapeado para o Backtest, ignorando.
+2025-04-04 07:00:11,461 - iniciar_bot_ml - WARNING - Parâmetro 'gain_multiplier_sell' não mapeado para o Backtest, ignorando.
+2025-04-04 07:00:12,456 - iniciar_bot_ml - WARNING - Parâmetro 'adx_threshold' não mapeado para o Backtest, ignorando.
+2025-04-04 07:00:12,456 - iniciar_bot_ml - WARNING - Parâmetro 'adx_period' não mapeado para o Backtest, ignorando.
+2025-04-04 07:00:12,457 - iniciar_bot_ml - WARNING - Parâmetro 'di_threshold' não mapeado para o Backtest, ignorando.
+2025-04-04 07:00:12,457 - iniciar_bot_ml - WARNING - Parâmetro 'stop_multiplier_buy' não mapeado para o Backtest, ignorando.
+2025-04-04 07:00:12,457 - iniciar_bot_ml - WARNING - Parâmetro 'stop_multiplier_sell' não mapeado para o Backtest, ignorando.
+2025-04-04 07:00:12,457 - iniciar_bot_ml - WARNING - Parâmetro 'gain_multiplier_buy' não mapeado para o Backtest, ignorando.
+2025-04-04 07:00:12,458 - iniciar_bot_ml - WARNING - Parâmetro 'gain_multiplier_sell' não mapeado para o Backtest, ignorando.
+2025-04-04 07:00:13,452 - iniciar_bot_ml - WARNING - Parâmetro 'adx_threshold' não mapeado para o Backtest, ignorando.
+2025-04-04 07:00:13,453 - iniciar_bot_ml - WARNING - Parâmetro 'adx_period' não mapeado para o Backtest, ignorando.
+2025-04-04 07:00:13,453 - iniciar_bot_ml - WARNING - Parâmetro 'di_threshold' não mapeado para o Backtest, ignorando.
+2025-04-04 07:00:13,453 - iniciar_bot_ml - WARNING - Parâmetro 'stop_multiplier_buy' não mapeado para o Backtest, ignorando.
+2025-04-04 07:00:13,454 - iniciar_bot_ml - WARNING - Parâmetro 'stop_multiplier_sell' não mapeado para o Backtest, ignorando.
+2025-04-04 07:00:13,454 - iniciar_bot_ml - WARNING - Parâmetro 'gain_multiplier_buy' não mapeado para o Backtest, ignorando.
+2025-04-04 07:00:13,454 - iniciar_bot_ml - WARNING - Parâmetro 'gain_multiplier_sell' não mapeado para o Backtest, ignorando.
+2025-04-04 07:00:14,465 - iniciar_bot_ml - WARNING - Parâmetro 'adx_threshold' não mapeado para o Backtest, ignorando.
+2025-04-04 07:00:14,465 - iniciar_bot_ml - WARNING - Parâmetro 'adx_period' não mapeado para o Backtest, ignorando.
+2025-04-04 07:00:14,465 - iniciar_bot_ml - WARNING - Parâmetro 'di_threshold' não mapeado para o Backtest, ignorando.
+2025-04-04 07:00:14,465 - iniciar_bot_ml - WARNING - Parâmetro 'stop_multiplier_buy' não mapeado para o Backtest, ignorando.
+2025-04-04 07:00:14,466 - iniciar_bot_ml - WARNING - Parâmetro 'stop_multiplier_sell' não mapeado para o Backtest, ignorando.
+2025-04-04 07:00:14,466 - iniciar_bot_ml - WARNING - Parâmetro 'gain_multiplier_buy' não mapeado para o Backtest, ignorando.
+2025-04-04 07:00:14,466 - iniciar_bot_ml - WARNING - Parâmetro 'gain_multiplier_sell' não mapeado para o Backtest, ignorando.
+2025-04-04 07:00:15,482 - iniciar_bot_ml - WARNING - Parâmetro 'adx_threshold' não mapeado para o Backtest, ignorando.
+2025-04-04 07:00:15,482 - iniciar_bot_ml - WARNING - Parâmetro 'adx_period' não mapeado para o Backtest, ignorando.
+2025-04-04 07:00:15,483 - iniciar_bot_ml - WARNING - Parâmetro 'di_threshold' não mapeado para o Backtest, ignorando.
+2025-04-04 07:00:15,483 - iniciar_bot_ml - WARNING - Parâmetro 'stop_multiplier_buy' não mapeado para o Backtest, ignorando.
+2025-04-04 07:00:15,483 - iniciar_bot_ml - WARNING - Parâmetro 'stop_multiplier_sell' não mapeado para o Backtest, ignorando.
+2025-04-04 07:00:15,483 - iniciar_bot_ml - WARNING - Parâmetro 'gain_multiplier_buy' não mapeado para o Backtest, ignorando.
+2025-04-04 07:00:15,483 - iniciar_bot_ml - WARNING - Parâmetro 'gain_multiplier_sell' não mapeado para o Backtest, ignorando.
+2025-04-04 07:00:16,462 - iniciar_bot_ml - WARNING - Parâmetro 'adx_threshold' não mapeado para o Backtest, ignorando.
+2025-04-04 07:00:16,462 - iniciar_bot_ml - WARNING - Parâmetro 'adx_period' não mapeado para o Backtest, ignorando.
+2025-04-04 07:00:16,462 - iniciar_bot_ml - WARNING - Parâmetro 'di_threshold' não mapeado para o Backtest, ignorando.
+2025-04-04 07:00:16,463 - iniciar_bot_ml - WARNING - Parâmetro 'stop_multiplier_buy' não mapeado para o Backtest, ignorando.
+2025-04-04 07:00:16,463 - iniciar_bot_ml - WARNING - Parâmetro 'stop_multiplier_sell' não mapeado para o Backtest, ignorando.
+2025-04-04 07:00:16,463 - iniciar_bot_ml - WARNING - Parâmetro 'gain_multiplier_buy' não mapeado para o Backtest, ignorando.
+2025-04-04 07:00:16,463 - iniciar_bot_ml - WARNING - Parâmetro 'gain_multiplier_sell' não mapeado para o Backtest, ignorando.
+2025-04-04 07:00:17,494 - iniciar_bot_ml - WARNING - Parâmetro 'adx_threshold' não mapeado para o Backtest, ignorando.
+2025-04-04 07:00:17,494 - iniciar_bot_ml - WARNING - Parâmetro 'adx_period' não mapeado para o Backtest, ignorando.
+2025-04-04 07:00:17,494 - iniciar_bot_ml - WARNING - Parâmetro 'di_threshold' não mapeado para o Backtest, ignorando.
+2025-04-04 07:00:17,495 - iniciar_bot_ml - WARNING - Parâmetro 'stop_multiplier_buy' não mapeado para o Backtest, ignorando.
+2025-04-04 07:00:17,495 - iniciar_bot_ml - WARNING - Parâmetro 'stop_multiplier_sell' não mapeado para o Backtest, ignorando.
+2025-04-04 07:00:17,495 - iniciar_bot_ml - WARNING - Parâmetro 'gain_multiplier_buy' não mapeado para o Backtest, ignorando.
+2025-04-04 07:00:17,495 - iniciar_bot_ml - WARNING - Parâmetro 'gain_multiplier_sell' não mapeado para o Backtest, ignorando.
+2025-04-04 07:00:18,401 - iniciar_bot_ml - WARNING - Parâmetro 'adx_threshold' não mapeado para o Backtest, ignorando.
+2025-04-04 07:00:18,401 - iniciar_bot_ml - WARNING - Parâmetro 'adx_period' não mapeado para o Backtest, ignorando.
+2025-04-04 07:00:18,401 - iniciar_bot_ml - WARNING - Parâmetro 'di_threshold' não mapeado para o Backtest, ignorando.
+2025-04-04 07:00:18,402 - iniciar_bot_ml - WARNING - Parâmetro 'stop_multiplier_buy' não mapeado para o Backtest, ignorando.
+2025-04-04 07:00:18,402 - iniciar_bot_ml - WARNING - Parâmetro 'stop_multiplier_sell' não mapeado para o Backtest, ignorando.
+2025-04-04 07:00:18,402 - iniciar_bot_ml - WARNING - Parâmetro 'gain_multiplier_buy' não mapeado para o Backtest, ignorando.
+2025-04-04 07:00:18,402 - iniciar_bot_ml - WARNING - Parâmetro 'gain_multiplier_sell' não mapeado para o Backtest, ignorando.
+2025-04-04 07:00:19,490 - iniciar_bot_ml - WARNING - Parâmetro 'adx_threshold' não mapeado para o Backtest, ignorando.
+2025-04-04 07:00:19,490 - iniciar_bot_ml - WARNING - Parâmetro 'adx_period' não mapeado para o Backtest, ignorando.
+2025-04-04 07:00:19,491 - iniciar_bot_ml - WARNING - Parâmetro 'di_threshold' não mapeado para o Backtest, ignorando.
+2025-04-04 07:00:19,491 - iniciar_bot_ml - WARNING - Parâmetro 'stop_multiplier_buy' não mapeado para o Backtest, ignorando.
+2025-04-04 07:00:19,491 - iniciar_bot_ml - WARNING - Parâmetro 'stop_multiplier_sell' não mapeado para o Backtest, ignorando.
+2025-04-04 07:00:19,491 - iniciar_bot_ml - WARNING - Parâmetro 'gain_multiplier_buy' não mapeado para o Backtest, ignorando.
+2025-04-04 07:00:19,492 - iniciar_bot_ml - WARNING - Parâmetro 'gain_multiplier_sell' não mapeado para o Backtest, ignorando.
+2025-04-04 07:00:20,564 - iniciar_bot_ml - WARNING - Parâmetro 'adx_threshold' não mapeado para o Backtest, ignorando.
+2025-04-04 07:00:20,564 - iniciar_bot_ml - WARNING - Parâmetro 'adx_period' não mapeado para o Backtest, ignorando.
+2025-04-04 07:00:20,564 - iniciar_bot_ml - WARNING - Parâmetro 'di_threshold' não mapeado para o Backtest, ignorando.
+2025-04-04 07:00:20,564 - iniciar_bot_ml - WARNING - Parâmetro 'stop_multiplier_buy' não mapeado para o Backtest, ignorando.
+2025-04-04 07:00:20,565 - iniciar_bot_ml - WARNING - Parâmetro 'stop_multiplier_sell' não mapeado para o Backtest, ignorando.
+2025-04-04 07:00:20,565 - iniciar_bot_ml - WARNING - Parâmetro 'gain_multiplier_buy' não mapeado para o Backtest, ignorando.
+2025-04-04 07:00:20,565 - iniciar_bot_ml - WARNING - Parâmetro 'gain_multiplier_sell' não mapeado para o Backtest, ignorando.
+2025-04-04 07:00:21,626 - iniciar_bot_ml - ERROR - Erro ao otimizar parâmetros: cannot unpack non-iterable Real object
+Traceback (most recent call last):
+  File "C:\Users\Arthur Age\Desktop\first_bot\iniciar_bot_ml.py", line 526, in otimizar_parametros
+    melhores_parametros = otimizador.otimizar(verbose=True)
+  File "C:\Users\Arthur Age\Desktop\first_bot\src\ml\otimizacao_bayesiana.py", line 89, in otimizar
+    for i, (param_name, _) in enumerate(self.espaco_busca):
+           ^^^^^^^^^^^^^^^
+TypeError: cannot unpack non-iterable Real object
+2025-04-04 07:01:27,179 - iniciar_bot_ml - INFO - Iniciando script do Bot de Trading com ML
+2025-04-04 07:01:27,278 - iniciar_bot_ml - INFO - Verificação do ambiente concluída.
+2025-04-04 07:01:27,282 - iniciar_bot_ml - WARNING - Alguns modelos de ML não foram encontrados:
+2025-04-04 07:01:27,283 - iniciar_bot_ml - WARNING -   - Classificador de regime: modelos/classificador_regime/classificador_regime.joblib
+2025-04-04 07:01:27,283 - iniciar_bot_ml - WARNING -   - Filtro de sinais: modelos/filtro_sinais/filtro_sinais.joblib
+2025-04-04 07:01:27,283 - iniciar_bot_ml - WARNING -   - Parâmetros otimizados: modelos/otimizador/params_otimizados.json
+2025-04-04 07:01:27,284 - iniciar_bot_ml - WARNING - Você precisa treinar os modelos antes de executar o bot em modo completo.
+2025-04-04 07:01:27,284 - iniciar_bot_ml - INFO - Configuração verificada e carregada.
+2025-04-04 07:02:32,179 - iniciar_bot_ml - INFO - Encerrando script do Bot de Trading com ML
+2025-04-04 07:03:57,782 - iniciar_bot_ml - INFO - Iniciando script do Bot de Trading com ML
+2025-04-04 07:03:57,886 - iniciar_bot_ml - INFO - Verificação do ambiente concluída.
+2025-04-04 07:03:57,890 - iniciar_bot_ml - WARNING - Alguns modelos de ML não foram encontrados:
+2025-04-04 07:03:57,890 - iniciar_bot_ml - WARNING -   - Classificador de regime: modelos/classificador_regime/classificador_regime.joblib
+2025-04-04 07:03:57,891 - iniciar_bot_ml - WARNING -   - Filtro de sinais: modelos/filtro_sinais/filtro_sinais.joblib
+2025-04-04 07:03:57,891 - iniciar_bot_ml - WARNING -   - Parâmetros otimizados: modelos/otimizador/params_otimizados.json
+2025-04-04 07:03:57,891 - iniciar_bot_ml - WARNING - Você precisa treinar os modelos antes de executar o bot em modo completo.
+2025-04-04 07:03:57,892 - iniciar_bot_ml - INFO - Configuração verificada e carregada.
+2025-04-04 07:04:39,342 - iniciar_bot_ml - INFO - Iniciando script do Bot de Trading com ML
+2025-04-04 07:04:39,437 - iniciar_bot_ml - INFO - Verificação do ambiente concluída.
+2025-04-04 07:04:39,441 - iniciar_bot_ml - WARNING - Alguns modelos de ML não foram encontrados:
+2025-04-04 07:04:39,442 - iniciar_bot_ml - WARNING -   - Classificador de regime: modelos/classificador_regime/classificador_regime.joblib
+2025-04-04 07:04:39,442 - iniciar_bot_ml - WARNING -   - Filtro de sinais: modelos/filtro_sinais/filtro_sinais.joblib
+2025-04-04 07:04:39,442 - iniciar_bot_ml - WARNING -   - Parâmetros otimizados: modelos/otimizador/params_otimizados.json
+2025-04-04 07:04:39,443 - iniciar_bot_ml - WARNING - Você precisa treinar os modelos antes de executar o bot em modo completo.
+2025-04-04 07:04:39,443 - iniciar_bot_ml - INFO - Configuração verificada e carregada.
+2025-04-04 07:04:41,401 - iniciar_bot_ml - INFO - Iniciando bot em modo SIMULADO...
+2025-04-04 07:05:16,370 - iniciar_bot_ml - INFO - Iniciando script do Bot de Trading com ML
+2025-04-04 07:05:16,470 - iniciar_bot_ml - INFO - Verificação do ambiente concluída.
+2025-04-04 07:05:16,474 - iniciar_bot_ml - WARNING - Alguns modelos de ML não foram encontrados:
+2025-04-04 07:05:16,474 - iniciar_bot_ml - WARNING -   - Classificador de regime: modelos/classificador_regime/classificador_regime.joblib
+2025-04-04 07:05:16,474 - iniciar_bot_ml - WARNING -   - Filtro de sinais: modelos/filtro_sinais/filtro_sinais.joblib
+2025-04-04 07:05:16,475 - iniciar_bot_ml - WARNING -   - Parâmetros otimizados: modelos/otimizador/params_otimizados.json
+2025-04-04 07:05:16,475 - iniciar_bot_ml - WARNING - Você precisa treinar os modelos antes de executar o bot em modo completo.
+2025-04-04 07:05:16,475 - iniciar_bot_ml - INFO - Configuração verificada e carregada.
+2025-04-04 07:05:21,931 - iniciar_bot_ml - INFO - Executando backtest para BTCUSDT (5m) - 30 dias...
+2025-04-04 07:05:22,723 - iniciar_bot_ml - INFO - Backtest concluído. Resultados salvos em: resultados/backtests/backtest_BTCUSDT_5m_20250404_070522.json
+2025-04-04 07:05:28,397 - iniciar_bot_ml - INFO - Otimizando parâmetros para BTCUSDT (5m) - 60 dias...
+2025-04-04 07:05:28,400 - iniciar_bot_ml - INFO - Iniciando otimização bayesiana...
+2025-04-04 07:14:43,865 - iniciar_bot_ml - INFO - Iniciando script do Bot de Trading com ML
+2025-04-04 07:14:43,969 - iniciar_bot_ml - INFO - Verificação do ambiente concluída.
+2025-04-04 07:14:43,973 - iniciar_bot_ml - WARNING - Alguns modelos de ML não foram encontrados:
+2025-04-04 07:14:43,973 - iniciar_bot_ml - WARNING -   - Classificador de regime: modelos/classificador_regime/classificador_regime.joblib
+2025-04-04 07:14:43,974 - iniciar_bot_ml - WARNING -   - Filtro de sinais: modelos/filtro_sinais/filtro_sinais.joblib
+2025-04-04 07:14:43,974 - iniciar_bot_ml - WARNING -   - Parâmetros otimizados: modelos/otimizador/params_otimizados.json
+2025-04-04 07:14:43,974 - iniciar_bot_ml - WARNING - Você precisa treinar os modelos antes de executar o bot em modo completo.
+2025-04-04 07:14:43,974 - iniciar_bot_ml - INFO - Configuração verificada e carregada.
+2025-04-04 07:17:29,516 - iniciar_bot_ml - INFO - Iniciando script do Bot de Trading com ML
+2025-04-04 07:17:29,632 - iniciar_bot_ml - INFO - Verificação do ambiente concluída.
+2025-04-04 07:17:29,636 - iniciar_bot_ml - WARNING - Alguns modelos de ML não foram encontrados:
+2025-04-04 07:17:29,637 - iniciar_bot_ml - WARNING -   - Classificador de regime: modelos/classificador_regime/classificador_regime.joblib
+2025-04-04 07:17:29,637 - iniciar_bot_ml - WARNING -   - Filtro de sinais: modelos/filtro_sinais/filtro_sinais.joblib
+2025-04-04 07:17:29,637 - iniciar_bot_ml - WARNING -   - Parâmetros otimizados: modelos/otimizador/params_otimizados.json
+2025-04-04 07:17:29,637 - iniciar_bot_ml - WARNING - Você precisa treinar os modelos antes de executar o bot em modo completo.
+2025-04-04 07:17:29,638 - iniciar_bot_ml - INFO - Configuração verificada e carregada.
+2025-04-04 07:19:02,308 - iniciar_bot_ml - INFO - Encerrando script do Bot de Trading com ML
+2025-04-04 07:29:38,177 - iniciar_bot_ml - INFO - Iniciando script do Bot de Trading com ML
+2025-04-04 07:29:38,282 - iniciar_bot_ml - INFO - Verificação do ambiente concluída.
+2025-04-04 07:29:38,286 - iniciar_bot_ml - WARNING - Alguns modelos de ML não foram encontrados:
+2025-04-04 07:29:38,287 - iniciar_bot_ml - WARNING -   - Classificador de regime: modelos/classificador_regime/classificador_regime.joblib
+2025-04-04 07:29:38,287 - iniciar_bot_ml - WARNING -   - Filtro de sinais: modelos/filtro_sinais/filtro_sinais.joblib
+2025-04-04 07:29:38,287 - iniciar_bot_ml - WARNING -   - Parâmetros otimizados: modelos/otimizador/params_otimizados.json
+2025-04-04 07:29:38,288 - iniciar_bot_ml - WARNING - Você precisa treinar os modelos antes de executar o bot em modo completo.
+2025-04-04 07:29:38,288 - iniciar_bot_ml - INFO - Configuração verificada e carregada.
+2025-04-04 07:29:42,715 - iniciar_bot_ml - INFO - Iniciando bot em modo SIMULADO...
+2025-04-04 07:30:15,886 - iniciar_bot_ml - INFO - Iniciando script do Bot de Trading com ML
+2025-04-04 07:30:15,984 - iniciar_bot_ml - INFO - Verificação do ambiente concluída.
+2025-04-04 07:30:15,988 - iniciar_bot_ml - WARNING - Alguns modelos de ML não foram encontrados:
+2025-04-04 07:30:15,988 - iniciar_bot_ml - WARNING -   - Classificador de regime: modelos/classificador_regime/classificador_regime.joblib
+2025-04-04 07:30:15,988 - iniciar_bot_ml - WARNING -   - Filtro de sinais: modelos/filtro_sinais/filtro_sinais.joblib
+2025-04-04 07:30:15,989 - iniciar_bot_ml - WARNING -   - Parâmetros otimizados: modelos/otimizador/params_otimizados.json
+2025-04-04 07:30:15,989 - iniciar_bot_ml - WARNING - Você precisa treinar os modelos antes de executar o bot em modo completo.
+2025-04-04 07:30:15,989 - iniciar_bot_ml - INFO - Configuração verificada e carregada.
+2025-04-04 07:30:34,753 - iniciar_bot_ml - INFO - Treinando classificador de regime para BTCUSDT (5m) - 90 dias...
+2025-04-04 07:30:34,754 - iniciar_bot_ml - ERROR - Erro ao treinar classificador de regime: ClassificadorRegimeMercado.treinar() got an unexpected keyword argument 'par'
+Traceback (most recent call last):
+  File "c:\Users\Arthur Age\Desktop\first_bot\iniciar_bot_ml.py", line 371, in treinar_classificador_regime
+    classificador.treinar(par=par, timeframe=timeframe, dias=dias)
+    ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: ClassificadorRegimeMercado.treinar() got an unexpected keyword argument 'par'
+2025-04-04 07:31:40,208 - iniciar_bot_ml - INFO - Encerrando script do Bot de Trading com ML
+2025-04-04 07:35:49,436 - iniciar_bot_ml - INFO - Iniciando script do Bot de Trading com ML
+2025-04-04 07:35:49,563 - iniciar_bot_ml - INFO - Verificação do ambiente concluída.
+2025-04-04 07:35:49,568 - iniciar_bot_ml - WARNING - Alguns modelos de ML não foram encontrados:
+2025-04-04 07:35:49,568 - iniciar_bot_ml - WARNING -   - Classificador de regime: modelos/classificador_regime/classificador_regime.joblib
+2025-04-04 07:35:49,569 - iniciar_bot_ml - WARNING -   - Filtro de sinais: modelos/filtro_sinais/filtro_sinais.joblib
+2025-04-04 07:35:49,569 - iniciar_bot_ml - WARNING -   - Parâmetros otimizados: modelos/otimizador/params_otimizados.json
+2025-04-04 07:35:49,569 - iniciar_bot_ml - WARNING - Você precisa treinar os modelos antes de executar o bot em modo completo.
+2025-04-04 07:35:49,570 - iniciar_bot_ml - INFO - Configuração verificada e carregada.
+2025-04-04 07:38:48,935 - iniciar_bot_ml - INFO - Encerrando script do Bot de Trading com ML
+2025-04-04 08:47:07,893 - iniciar_bot_ml - INFO - Iniciando script do Bot de Trading com ML
+2025-04-04 08:47:08,071 - iniciar_bot_ml - INFO - Verificação do ambiente concluída.
+2025-04-04 08:47:08,080 - iniciar_bot_ml - WARNING - Alguns modelos de ML não foram encontrados:
+2025-04-04 08:47:08,081 - iniciar_bot_ml - WARNING -   - Classificador de regime: modelos/regimes/classificador_regimes.joblib
+2025-04-04 08:47:08,081 - iniciar_bot_ml - WARNING -   - Filtro de sinais: modelos/filtro_sinais/filtro_sinais.joblib
+2025-04-04 08:47:08,082 - iniciar_bot_ml - WARNING -   - Parâmetros otimizados: modelos/otimizador/params_otimizados.json
+2025-04-04 08:47:08,082 - iniciar_bot_ml - WARNING - Você precisa treinar os modelos antes de executar o bot em modo completo.
+2025-04-04 08:47:08,083 - iniciar_bot_ml - INFO - Configuração verificada e carregada.
+2025-04-04 08:47:10,931 - iniciar_bot_ml - INFO - Executando backtest para BTCUSDT (5m) - 30 dias...
+2025-04-04 08:47:15,172 - iniciar_bot_ml - INFO - Backtest concluído. Resultados salvos em: resultados/backtests/backtest_BTCUSDT_5m_20250404_084715.json
+2025-04-04 08:47:58,211 - iniciar_bot_ml - INFO - Encerrando script do Bot de Trading com ML
+2025-04-04 09:53:27,206 - iniciar_bot_ml - INFO - Iniciando script do Bot de Trading com ML
+2025-04-04 09:53:27,377 - iniciar_bot_ml - INFO - Verificação do ambiente concluída.
+2025-04-04 09:53:27,383 - iniciar_bot_ml - WARNING - Alguns modelos de ML não foram encontrados:
+2025-04-04 09:53:27,383 - iniciar_bot_ml - WARNING -   - Classificador de regime: modelos/regimes/classificador_regimes.joblib
+2025-04-04 09:53:27,383 - iniciar_bot_ml - WARNING -   - Filtro de sinais: modelos/filtro_sinais/filtro_sinais.joblib
+2025-04-04 09:53:27,383 - iniciar_bot_ml - WARNING -   - Parâmetros otimizados: modelos/otimizador/params_otimizados.json
+2025-04-04 09:53:27,384 - iniciar_bot_ml - WARNING - Você precisa treinar os modelos antes de executar o bot em modo completo.
+2025-04-04 09:53:27,384 - iniciar_bot_ml - INFO - Configuração verificada e carregada.
+2025-04-04 09:53:30,986 - iniciar_bot_ml - INFO - Encerrando script do Bot de Trading com ML
+2025-04-04 10:01:37,136 - iniciar_bot_ml - INFO - Iniciando script do Bot de Trading com ML
+2025-04-04 10:01:37,261 - iniciar_bot_ml - INFO - Verificação do ambiente concluída.
+2025-04-04 10:01:37,266 - iniciar_bot_ml - WARNING - Alguns modelos de ML não foram encontrados:
+2025-04-04 10:01:37,267 - iniciar_bot_ml - WARNING -   - Classificador de regime: modelos/regimes/classificador_regimes.joblib
+2025-04-04 10:01:37,267 - iniciar_bot_ml - WARNING -   - Filtro de sinais: modelos/filtro_sinais/filtro_sinais.joblib
+2025-04-04 10:01:37,267 - iniciar_bot_ml - WARNING -   - Parâmetros otimizados: modelos/otimizador/params_otimizados.json
+2025-04-04 10:01:37,268 - iniciar_bot_ml - WARNING - Você precisa treinar os modelos antes de executar o bot em modo completo.
+2025-04-04 10:01:37,268 - iniciar_bot_ml - INFO - Configuração verificada e carregada.
+2025-04-04 10:17:23,262 - iniciar_bot_ml - INFO - Iniciando aplicação
+2025-04-04 10:17:23,374 - iniciar_bot_ml - INFO - Verificação do ambiente concluída.
+2025-04-04 10:17:23,380 - iniciar_bot_ml - WARNING - Alguns modelos de ML não foram encontrados:
+2025-04-04 10:17:23,380 - iniciar_bot_ml - WARNING -   - Classificador de regime: modelos/regimes/classificador_regimes.joblib
+2025-04-04 10:17:23,380 - iniciar_bot_ml - WARNING -   - Filtro de sinais: modelos/filtro_sinais/filtro_sinais.joblib
+2025-04-04 10:17:23,381 - iniciar_bot_ml - WARNING -   - Parâmetros otimizados: modelos/otimizador/params_otimizados.json
+2025-04-04 10:17:23,381 - iniciar_bot_ml - WARNING - Você precisa treinar os modelos antes de executar o bot em modo completo.
+2025-04-04 10:17:23,381 - iniciar_bot_ml - INFO - Configuração verificada e carregada.
+2025-04-04 10:21:03,737 - iniciar_bot_ml - INFO - Iniciando aplicação
+2025-04-04 10:21:03,845 - iniciar_bot_ml - INFO - Verificação do ambiente concluída.
+2025-04-04 10:21:03,851 - iniciar_bot_ml - WARNING - Alguns modelos de ML não foram encontrados:
+2025-04-04 10:21:03,851 - iniciar_bot_ml - WARNING -   - Classificador de regime: modelos/regimes/classificador_regimes.joblib
+2025-04-04 10:21:03,852 - iniciar_bot_ml - WARNING -   - Filtro de sinais: modelos/filtro_sinais/filtro_sinais.joblib
+2025-04-04 10:21:03,852 - iniciar_bot_ml - WARNING -   - Parâmetros otimizados: modelos/otimizador/params_otimizados.json
+2025-04-04 10:21:03,853 - iniciar_bot_ml - WARNING - Você precisa treinar os modelos antes de executar o bot em modo completo.
+2025-04-04 10:21:03,853 - iniciar_bot_ml - INFO - Configuração verificada e carregada.
+2025-04-04 10:21:22,699 - iniciar_bot_ml - INFO - Encerrando aplicação

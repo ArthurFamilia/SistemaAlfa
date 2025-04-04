@@ -1,0 +1,23 @@
+2025-04-04 09:54:05,834 - minerador_avancado - INFO - Usando configuração padrão do arquivo .env
+2025-04-04 09:54:05,835 - minerador_avancado - INFO - 
+Configuração do minerador de estratégias:
+2025-04-04 09:54:05,835 - minerador_avancado - INFO - dias_historico: 30
+2025-04-04 09:54:05,835 - minerador_avancado - INFO - pares: ['BTCUSDT']
+2025-04-04 09:54:05,835 - minerador_avancado - INFO - timeframes: ['5m']
+2025-04-04 09:54:05,836 - minerador_avancado - INFO - periodos_adx: [8, 10, 12, 14]
+2025-04-04 09:54:05,836 - minerador_avancado - INFO - limiares_adx: [22.0, 24.0, 26.0, 28.0, 30.0, 32.0]
+2025-04-04 09:54:05,847 - minerador_avancado - INFO - periodos_di: [8, 10, 12, 14]
+2025-04-04 09:54:05,847 - minerador_avancado - INFO - limiares_di_plus: [5.0, 12.5, 20.0]
+2025-04-04 09:54:05,848 - minerador_avancado - INFO - limiares_di_minus: [5.0, 12.5, 20.0]
+2025-04-04 09:54:05,848 - minerador_avancado - INFO - multiplicadores_stop: [1.5, 2.0, 2.5, 3.0, 3.5, 4.0]
+2025-04-04 09:54:05,848 - minerador_avancado - INFO - multiplicadores_gain: [3.0, 4.0, 5.0, 6.0, 7.0, 8.0]
+2025-04-04 09:54:05,849 - minerador_avancado - INFO - max_estrategias: 50
+2025-04-04 09:54:05,849 - minerador_avancado - INFO - criterio_selecao: expectativa
+2025-04-04 09:54:05,849 - minerador_avancado - INFO - num_resultados: 10
+2025-04-04 09:54:05,849 - minerador_avancado - INFO - salvar_todas_estrategias: False
+2025-04-04 09:54:05,849 - minerador_avancado - INFO - salvar_apenas_lucrativas: True
+2025-04-04 09:54:05,850 - minerador_avancado - INFO - testar_robustez: True
+2025-04-04 09:54:05,850 - minerador_avancado - INFO - periodos_teste_robustez: ['1w', '2w', '1m']
+2025-04-04 09:54:05,850 - minerador_avancado - INFO - indicadores_adicionais: []
+2025-04-04 09:54:05,850 - minerador_avancado - INFO - usar_ml: True
+2025-04-04 09:54:05,850 - minerador_avancado - INFO - usar_classificador_regimes: True

@@ -1,0 +1,14 @@
+2025-04-03 23:06:18,537 - monitor_recursos - INFO - Informações do sistema: {'sistema': 'nt - nt', 'processador': 16, 'cpu_fisicos': 8, 'memoria_total': 15.351802825927734, 'disco_total': {'C:\\': 456.21776962280273, 'K:\\': 57.622066497802734, 'Z:\\': 931.5117149353027}, 'data_inicio': '2025-04-03 23:06:18'}
+2025-04-03 23:06:18,551 - monitor_recursos - INFO - Monitoramento de recursos iniciado
+2025-04-03 23:08:00,999 - monitor_recursos - INFO - Informações do sistema: {'sistema': 'nt - nt', 'processador': 16, 'cpu_fisicos': 8, 'memoria_total': 15.351802825927734, 'disco_total': {'C:\\': 456.21776962280273, 'K:\\': 57.622066497802734, 'Z:\\': 931.5117149353027}, 'data_inicio': '2025-04-03 23:08:00'}
+2025-04-03 23:08:01,025 - monitor_recursos - INFO - Monitoramento de recursos iniciado
+2025-04-03 23:20:44,867 - monitor_recursos - INFO - Informações do sistema: {'sistema': 'nt - nt', 'processador': 16, 'cpu_fisicos': 8, 'memoria_total': 15.351802825927734, 'disco_total': {'C:\\': 456.21776962280273, 'K:\\': 57.622066497802734, 'Z:\\': 931.5117149353027}, 'data_inicio': '2025-04-03 23:20:44'}
+2025-04-03 23:20:44,880 - monitor_recursos - INFO - Monitoramento de recursos iniciado
+2025-04-03 23:24:45,444 - monitor_recursos - INFO - Informações do sistema: {'sistema': 'nt - nt', 'processador': 16, 'cpu_fisicos': 8, 'memoria_total': 15.351802825927734, 'disco_total': {'C:\\': 456.21776962280273, 'K:\\': 57.622066497802734, 'Z:\\': 931.5117149353027}, 'data_inicio': '2025-04-03 23:24:45'}
+2025-04-03 23:24:45,458 - monitor_recursos - INFO - Monitoramento de recursos iniciado
+2025-04-03 23:25:45,493 - monitor_recursos - INFO - Monitoramento de recursos parado
+2025-04-03 23:25:45,496 - monitor_recursos - INFO - Relatório de recursos exportado para: logs/relatorio_recursos_20250403_232545.json
+2025-04-04 07:04:40,945 - monitor_recursos - INFO - Informações do sistema: {'sistema': 'nt - nt', 'processador': 16, 'cpu_fisicos': 8, 'memoria_total': 15.351802825927734, 'disco_total': {'C:\\': 456.21776962280273, 'K:\\': 57.622066497802734, 'Z:\\': 931.5117149353027}, 'data_inicio': '2025-04-04 07:04:40'}
+2025-04-04 07:04:40,959 - monitor_recursos - INFO - Monitoramento de recursos iniciado
+2025-04-04 07:29:42,330 - monitor_recursos - INFO - Informações do sistema: {'sistema': 'nt - nt', 'processador': 16, 'cpu_fisicos': 8, 'memoria_total': 15.351802825927734, 'disco_total': {'C:\\': 456.21776962280273, 'K:\\': 57.622066497802734, 'Z:\\': 931.5117149353027}, 'data_inicio': '2025-04-04 07:29:42'}
+2025-04-04 07:29:42,344 - monitor_recursos - INFO - Monitoramento de recursos iniciado
