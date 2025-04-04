@@ -1,0 +1,53 @@
+# Requisitos Unificados para o Bot de Trading ADX com ML
+# Última atualização: Abril 2024
+
+# === DEPENDÊNCIAS PRINCIPAIS ===
+
+# Manipulação de dados
+pandas==2.1.4
+numpy==1.26.2
+
+# API Binance
+python-binance==1.0.19
+
+# Gerenciamento de ambiente
+python-dotenv>=0.21.0
+requests>=2.27.1
+websocket-client>=1.3.1
+python-dateutil>=2.8.2
+
+# Utilidades do sistema
+psutil>=5.9.8
+tqdm>=4.66.1
+json5>=0.9.14
+colorama>=0.4.4
+
+# === DEPENDÊNCIAS DE MACHINE LEARNING ===
+
+# Bibliotecas ML
+scikit-learn>=1.0.2  # Para RandomForest e algoritmos de ML
+xgboost>=1.5.0       # Para classificador XGBoost
+scikit-optimize>=0.9.0  # Para otimização bayesiana
+joblib>=1.1.0        # Para salvar/carregar modelos
+
+# Indicadores técnicos
+# Nota: TA-Lib requer instalação separada - ver instruções abaixo
+ta>=0.9.0            # Alternativa para indicadores técnicos
+
+# === DEPENDÊNCIAS DE VISUALIZAÇÃO ===
+
+# Visualização de dados
+matplotlib==3.8.2
+seaborn==0.13.0
+plotly>=5.3.0        # Para visualizações interativas
+
+# ===== NOTAS DE INSTALAÇÃO =====
+
+# TA-Lib (indicadores técnicos) precisa ser instalado separadamente:
+# Windows: Baixar o arquivo .whl em https://www.lfd.uci.edu/~gohlke/pythonlibs/#ta-lib
+# Linux: sudo apt-get install ta-lib
+# Mac: brew install ta-lib
+# Após a instalação da biblioteca C, execute: pip install TA-Lib
+
+# Para instalar todas as dependências:
+# pip install -r requirements_unified.txt 

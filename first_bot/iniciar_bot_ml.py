@@ -1907,8 +1907,166 @@ def restaurar_backup():
     input("\nPressione Enter para continuar...")
 
 def ver_manual():
-    print("\nFunção de ver manual será implementada em breve.")
-    input("\nPressione Enter para continuar...")
+    """
+    Exibe o manual do usuário, permitindo escolher entre o manual completo e o manual do menu.
+    """
+    logger = logging.getLogger('iniciar_bot_ml')
+    
+    # Verificar se os arquivos dos manuais existem
+    manual_completo_existe = os.path.exists('manual.txt')
+    manual_menu_existe = os.path.exists('manual_do_menu.txt')
+    
+    if not manual_completo_existe and not manual_menu_existe:
+        logger.error("Arquivos de manual não encontrados.")
+        print("\nErro: Nenhum arquivo de manual encontrado.")
+        print("Por favor, verifique se os arquivos 'manual.txt' ou 'manual_do_menu.txt' existem.")
+        input("\nPressione Enter para continuar...")
+        return
+    
+    while True:
+        exibir_cabecalho("DOCUMENTAÇÃO DO SISTEMA")
+        
+        print("Escolha qual manual deseja visualizar:")
+        
+        if manual_completo_existe:
+            print("[1] Manual Completo do Bot de Trading ADX com ML")
+        
+        if manual_menu_existe:
+            print("[2] Manual do Menu Interativo")
+        
+        print("[0] Voltar")
+        print("="*60)
+        
+        escolha = input("\nSua escolha: ").strip()
+        
+        if escolha == '0':
+            break
+        elif escolha == '1' and manual_completo_existe:
+            exibir_manual('manual.txt', "MANUAL COMPLETO")
+        elif escolha == '2' and manual_menu_existe:
+            exibir_manual('manual_do_menu.txt', "MANUAL DO MENU INTERATIVO")
+        else:
+            print("\nOpção inválida!")
+            time.sleep(1)
+
+def exibir_manual(arquivo, titulo):
+    """
+    Exibe um manual específico.
+    
+    Args:
+        arquivo (str): Nome do arquivo do manual
+        titulo (str): Título a ser exibido no cabeçalho
+    """
+    logger = logging.getLogger('iniciar_bot_ml')
+    
+    # Carregar o manual
+    try:
+        with open(arquivo, 'r', encoding='utf-8') as f:
+            conteudo_manual = f.read()
+    except Exception as e:
+        logger.error(f"Erro ao ler o manual: {e}")
+        print(f"\nErro ao ler o manual: {e}")
+        input("\nPressione Enter para continuar...")
+        return
+    
+    # Extrair os títulos das seções
+    secoes = []
+    linhas = conteudo_manual.split('\n')
+    
+    for i, linha in enumerate(linhas):
+        if linha.startswith('## '):
+            titulo_secao = linha.replace('## ', '').strip()
+            secoes.append((titulo_secao, i))
+    
+    # Interface para navegar pelo manual
+    while True:
+        exibir_cabecalho(titulo)
+        
+        print("Seções disponíveis:")
+        for i, (titulo_secao, _) in enumerate(secoes, 1):
+            print(f"[{i}] {titulo_secao}")
+        
+        print("\n[0] Voltar")
+        print("[T] Ver manual completo")
+        print("="*60)
+        
+        escolha = input("\nEscolha uma seção ou opção: ").strip()
+        
+        if escolha == '0':
+            break
+        elif escolha.lower() == 't':
+            # Exibir manual completo
+            exibir_cabecalho(titulo)
+            
+            # Paginar o conteúdo
+            paginar_texto(conteudo_manual)
+            
+        else:
+            try:
+                indice = int(escolha) - 1
+                if 0 <= indice < len(secoes):
+                    titulo_secao, linha_inicio = secoes[indice]
+                    
+                    # Encontrar a linha de fim da seção
+                    if indice < len(secoes) - 1:
+                        linha_fim = secoes[indice + 1][1]
+                    else:
+                        linha_fim = len(linhas)
+                    
+                    # Extrair conteúdo da seção
+                    conteudo_secao = '\n'.join(linhas[linha_inicio:linha_fim])
+                    
+                    # Exibir a seção
+                    exibir_cabecalho(f"{titulo} - {titulo_secao}")
+                    
+                    # Paginar o conteúdo da seção
+                    paginar_texto(conteudo_secao)
+                else:
+                    print("\nOpção inválida!")
+                    time.sleep(1)
+            except ValueError:
+                print("\nPor favor, digite um número válido.")
+                time.sleep(1)
+
+def paginar_texto(texto):
+    """
+    Exibe texto de forma paginada.
+    
+    Args:
+        texto (str): Texto a ser exibido
+    """
+    linhas = texto.split('\n')
+    total_linhas = len(linhas)
+    linhas_por_pagina = 20
+    pagina_atual = 0
+    total_paginas = (total_linhas + linhas_por_pagina - 1) // linhas_por_pagina
+    
+    while True:
+        # Limpar tela
+        print("\n")
+        
+        # Calcular intervalo de linhas para a página atual
+        inicio = pagina_atual * linhas_por_pagina
+        fim = min(inicio + linhas_por_pagina, total_linhas)
+        
+        # Exibir linhas da página atual
+        for i in range(inicio, fim):
+            print(linhas[i])
+        
+        # Exibir navegação
+        print("\n" + "="*60)
+        print(f"Página {pagina_atual + 1} de {total_paginas}")
+        print("[P] Página anterior   [N] Próxima página   [Q] Voltar")
+        
+        # Obter comando
+        cmd = input("Comando: ").lower()
+        
+        if cmd == 'q':
+            break
+        elif cmd == 'p' and pagina_atual > 0:
+            pagina_atual -= 1
+        elif cmd == 'n' and pagina_atual < total_paginas - 1:
+            pagina_atual += 1
 
 # Função principal
 def main():

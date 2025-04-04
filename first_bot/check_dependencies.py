@@ -126,5 +126,5 @@ if __name__ == "__main__":
         print("\n✅ Todas as dependências estão instaladas corretamente.")
     else:
         print("\n❌ Algumas dependências estão faltando. Por favor, instale-as.")
-        print("Execute: pip install -r requirements.txt")
-        print("Para dependências de ML: pip install -r requirements_ml.txt") 
+        print("Execute: pip install -r requirements_unified.txt")
+        print("Nota: TA-Lib precisa ser instalado separadamente. Consulte as instruções no arquivo requirements_unified.txt.") 

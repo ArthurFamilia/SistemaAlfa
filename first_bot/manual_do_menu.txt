@@ -1,0 +1,291 @@
+# MANUAL DO MENU INTERATIVO DO BOT DE TRADING ADX COM ML
+
+## INTRODUÇÃO AO MENU INTERATIVO
+
+Este documento complementa o manual principal, detalhando como utilizar a nova interface de menu interativo para o Bot de Trading ADX com Machine Learning. O menu interativo facilita a utilização do sistema, oferecendo acesso a todas as funcionalidades através de uma interface amigável.
+
+## ÍNDICE
+1. Inicialização do Menu
+2. Navegação e Estrutura do Menu
+3. Operações do Bot
+4. Backtest e Análise
+5. Configurações
+6. Machine Learning
+7. Monitoramento
+8. Utilitários
+
+## 1. INICIALIZAÇÃO DO MENU
+
+Para iniciar o menu interativo, execute o seguinte comando no diretório raiz do projeto:
+
+```
+python iniciar_bot_ml.py
+```
+
+O sistema verificará automaticamente as dependências e configurações, criando diretórios e arquivos necessários caso não existam.
+
+## 2. NAVEGAÇÃO E ESTRUTURA DO MENU
+
+O menu principal é organizado em seis categorias:
+
+1. **Operações do Bot**: Controle direto do bot de trading (iniciar/parar/monitorar)
+2. **Backtest e Análise**: Ferramentas para backtest e análise de estratégias
+3. **Configurações**: Configurações gerais e específicas do sistema
+4. **Machine Learning**: Funções relacionadas aos modelos de ML
+5. **Monitoramento**: Ferramentas para monitorar recursos e operações
+6. **Utilitários**: Funções utilitárias e de manutenção
+
+### Navegação Básica:
+- Selecione opções digitando o número correspondente e pressionando Enter
+- Volte ao menu anterior selecionando [0]
+- Siga as instruções na tela para cada funcionalidade
+
+## 3. OPERAÇÕES DO BOT
+
+O submenu "Operações do Bot" contém as seguintes opções:
+
+### [1] Iniciar bot em modo simulado
+Inicia o bot em modo de simulação, sem realizar operações reais. Este é o modo recomendado para testes.
+
+**Processo**:
+1. Confirme o início do bot
+2. O sistema carregará configurações e modelos
+3. O bot iniciará em segundo plano
+4. Você pode escolher monitorar logs em tempo real ou voltar ao menu
+
+### [2] Iniciar bot em modo real
+Inicia o bot para realizar operações reais no mercado. Utilize apenas após testes extensivos em modo simulado.
+
+**Atenção**: Requer credenciais válidas da API Binance com permissões de trading.
+
+### [3] Ver status do bot
+Exibe o status atual do bot, incluindo:
+- Estado de execução (ativo/inativo)
+- Tempo de execução
+- Estatísticas de operações
+- Última operação realizada
+
+### [4] Ver posições atuais
+Mostra as posições atualmente abertas:
+- Par de trading
+- Direção (compra/venda)
+- Preço de entrada
+- Lucro/prejuízo atual
+- Níveis de stop loss e take profit
+
+### [5] Parar bot em execução
+Interrompe a execução do bot de forma segura, sem afetar posições abertas.
+
+## 4. BACKTEST E ANÁLISE
+
+Este submenu contém ferramentas para backtesting e análise de estratégias:
+
+### [1] Executar backtest
+Permite executar backtests da estratégia ADX com parâmetros personalizáveis:
+
+**Opções configuráveis**:
+- Par de trading
+- Timeframe (intervalo de tempo)
+- Período histórico (dias)
+- Tamanho da posição
+- Parâmetros do ADX
+
+Os resultados são salvos em `/resultados/backtests/` para análise posterior.
+
+### [2] Ver resultados de backtests
+Exibe os resultados de backtests anteriores:
+- Lista de backtests disponíveis
+- Métricas detalhadas (taxa de acerto, lucro, drawdown)
+- Detalhes das operações
+- Opção para exportar relatórios e visualizar gráficos
+
+### [3] Comparar estratégias
+Compara diferentes configurações de estratégias ou resultados de backtests:
+- Seleção de múltiplos backtests para comparação
+- Visualização lado a lado das métricas principais
+- Gráficos comparativos de desempenho
+
+### [4] Visualizar gráficos de performance
+Gera gráficos detalhados de performance:
+- Curva de equidade
+- Operações no gráfico de preço
+- Distribuição de ganhos/perdas
+- Análise de drawdown
+
+### [5] Executar minerador de estratégias
+Ferramenta avançada para testar múltiplas combinações de parâmetros:
+- Busca em grade (grid search)
+- Busca aleatória (random search)
+- Busca inteligente com ML
+- Classificação por diferentes métricas (lucro, expectativa matemática)
+
+## 5. CONFIGURAÇÕES
+
+Gerencia todas as configurações do sistema:
+
+### [1] Editar configurações gerais (.env)
+Interface para editar o arquivo .env com todas as configurações do bot:
+- Credenciais da API
+- Parâmetros de trading
+- Configurações de ML
+- Parâmetros de rede e logging
+
+As configurações são organizadas por categorias para fácil navegação.
+
+### [2] Configuração avançada de backtest
+Configurações específicas para backtests:
+- Parâmetros de simulação de rede
+- Configurações de gráficos
+- Opções de exportação
+
+### [3] Configuração do minerador
+Configurações para o minerador de estratégias:
+- Ranges de parâmetros
+- Critérios de avaliação
+- Configurações de otimização
+
+### [4] Configuração de indicadores
+Ajuste fino dos indicadores técnicos:
+- Períodos e limiares do ADX
+- Configurações de ATR
+- Outros indicadores utilizados
+
+### [5] Salvar configuração atual
+Salva a configuração atual em um arquivo separado para uso futuro.
+
+### [6] Carregar configuração salva
+Carrega uma configuração previamente salva.
+
+## 6. MACHINE LEARNING
+
+Gerencia os componentes de Machine Learning:
+
+### [1] Treinar classificador de regime de mercado
+Treina o modelo que identifica diferentes regimes de mercado:
+- Coleta automática de dados
+- Configuração de parâmetros de treinamento
+- Avaliação do modelo treinado
+
+### [2] Treinar filtro de sinais
+Treina o modelo XGBoost que filtra sinais de qualidade baixa:
+- Utiliza dados de backtests anteriores
+- Ajuste de hiperparâmetros
+- Validação cruzada
+
+### [3] Otimizar parâmetros com ML
+Interface para a otimização bayesiana de parâmetros:
+- Definição do espaço de busca
+- Configuração do número de iterações
+- Visualização do progresso da otimização
+
+### [4] Ver desempenho dos modelos
+Exibe métricas de desempenho dos modelos de ML treinados:
+- Matriz de confusão
+- Curvas de precisão-recall
+- Importância de features
+
+### [5] Exportar modelos treinados
+Exporta modelos para uso em outros ambientes ou backup.
+
+### [6] Importar modelos
+Importa modelos previamente treinados.
+
+## 7. MONITORAMENTO
+
+Ferramentas para monitoramento do sistema:
+
+### [1] Monitorar recursos do sistema
+Exibe estatísticas em tempo real:
+- Uso de CPU e memória
+- Operações de I/O
+- Conexão de rede
+
+### [2] Ver logs em tempo real
+Monitora os logs do sistema em tempo real, útil para acompanhar a execução do bot.
+
+### [3] Ver estatísticas de rede
+Estatísticas detalhadas da conexão com a API da Binance:
+- Latência média
+- Taxas de erro
+- Tempo de resposta
+
+### [4] Ver logs do bot
+Interface para explorar os logs históricos do bot:
+- Filtragem por data e tipo
+- Busca por palavras-chave
+- Exportação para análise
+
+### [5] Exportar relatórios
+Gera relatórios detalhados de desempenho do bot para análise externa.
+
+## 8. UTILITÁRIOS
+
+Funções utilitárias diversas:
+
+### [1] Verificar dependências
+Verifica se todas as dependências do sistema estão instaladas corretamente.
+
+### [2] Exportar configurações
+Exporta as configurações atuais para compartilhamento ou backup.
+
+### [3] Importar dados históricos
+Ferramentas para importar dados históricos de diferentes fontes:
+- Binance
+- Arquivos CSV
+- Outras exchanges
+
+### [4] Fazer backup dos dados
+Cria um backup completo da configuração e dados do sistema.
+
+### [5] Restaurar dados de backup
+Restaura dados a partir de um backup anterior.
+
+### [6] Ver manual de uso
+Acessa este manual através da interface do menu.
+
+## MELHORES PRÁTICAS DE USO DO MENU
+
+1. **Sempre comece com modo simulado**:
+   - Use a opção [1] em "Operações do Bot"
+   - Monitore o comportamento antes de passar para operações reais
+
+2. **Validação via backtest**:
+   - Execute backtests extensivos antes de usar o bot em modo real
+   - Analise os resultados criticamente
+   - Otimize parâmetros com base nos backtests
+
+3. **Monitore regularmente**:
+   - Verifique logs e status do bot
+   - Acompanhe as estatísticas de desempenho
+   - Fique atento a erros ou comportamentos incomuns
+
+4. **Mantenha modelos atualizados**:
+   - Retreine modelos periodicamente
+   - Verifique a degradação de desempenho ao longo do tempo
+
+5. **Backup regular**:
+   - Use as funções de backup regularmente
+   - Mantenha cópias seguras das configurações otimizadas
+
+## RESOLUÇÃO DE PROBLEMAS DO MENU
+
+### Menu não inicia
+- Verifique se Python 3.7+ está instalado
+- Confirme que todas as dependências estão instaladas
+- Verifique permissões de arquivo
+
+### Opções do menu não funcionam
+- Confirme que todos os módulos necessários estão disponíveis
+- Verifique os logs para identificar erros específicos
+- Reinstale dependências se necessário
+
+### Erros durante backtest ou otimização
+- Verifique conectividade com a API da Binance
+- Confirme que os parâmetros estão dentro dos limites válidos
+- Verifique espaço em disco para logs e resultados
+
+---
+
+© 2023 - Todos os direitos reservados
+Bot de Trading ADX com Machine Learning - Menu Interativo
+Versão: 1.0.0 
